@@ -133,6 +133,10 @@ function anchor(text) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+function cell(text) {
+  return String(text || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
+}
+
 function render(db) {
   const entries = db.entries.map((e) => ({ ...e, health: classify(e) }));
   const counts = { active: 0, stale: 0, dead: 0 };
@@ -148,9 +152,9 @@ function render(db) {
   const out = [];
   out.push(`# Awesome Native React`);
   out.push("");
-  out.push(`The **machine-audited React Native ecosystem index** — the living successor to the classic [awesome-react-native](https://github.com/jondot/awesome-react-native) list, which has been frozen since April 2021.`);
+  out.push(`The **machine-audited React Native ecosystem index**. Every library is re-verified against GitHub and npm on each audit: maintenance health is measured, not claimed, and dead libraries are moved to the [graveyard](#-graveyard) with a successor when one exists.`);
   out.push("");
-  out.push(`Every entry is re-verified against GitHub and npm on each audit: maintenance health is measured, not claimed, and dead libraries are moved to the [graveyard](#-graveyard) with a successor when one exists. No badge in this list is paid, requested, or manually overridden.`);
+  out.push(`No badge in this index is paid, requested, or manually overridden.`);
   out.push("");
   out.push(`> **Last audit:** ${db.updatedAt.slice(0, 10)} · **${entries.length} libraries** · ✅ ${counts.active} active · 🟡 ${counts.stale} stale · 💀 ${counts.dead} dead/deleted · ✨ ${newArchCount} confirmed New Architecture`);
   out.push("");
@@ -185,14 +189,15 @@ function render(db) {
     });
     out.push(`### ${c}`);
     out.push("");
+    out.push(`| Library | Health | Stars | npm/wk | Last push | Notes |`);
+    out.push(`| --- | --- | ---: | ---: | --- | --- |`);
     for (const e of list) {
       const icon = e.health === "active" ? "✅" : "🟡";
       const arch = NEW_ARCH.has((e.repo || e.listed).toLowerCase()) ? " ✨" : "";
-      const bits = [`★${fmtStars(e.stars || 0)}`, `pushed ${relTime(e.pushedAt)}`];
-      if (e.npmWk) bits.push(`npm ${fmtDl(e.npmWk)}`);
-      const desc = e.desc ? ` — ${e.desc}` : "";
       const name = (e.listed.split("/")[1] || e.listed);
-      out.push(`- ${icon}${arch} [${name}](https://github.com/${e.repo || e.listed})${desc} · ${bits.join(" · ")}`);
+      const dl = typeof e.npmWk === "number" ? fmtDl(e.npmWk).replace("/wk", "") : "";
+      const notes = cell(e.notes || e.desc);
+      out.push(`| [${cell(name)}](https://github.com/${e.repo || e.listed}) | ${icon}${arch} | ${fmtStars(e.stars || 0)} | ${dl} | ${relTime(e.pushedAt)} | ${notes} |`);
     }
     out.push("");
   }
@@ -215,22 +220,26 @@ function render(db) {
     out.push(`> ⚠️ The audit measured **≈${fmtDl(deadDownloads).replace("/wk", "")} weekly npm downloads** still flowing into dead libraries below. Every one of those installs is a future migration bill.`);
     out.push("");
   }
+  out.push(`| Library | Fate | Stars | npm/wk | Last push | Successor | Notes |`);
+  out.push(`| --- | --- | ---: | ---: | --- | --- | --- |`);
   for (const e of graves) {
     const name = e.listed.split("/")[1] || e.listed;
-    const status = e.deleted ? "deleted" : e.archived ? "archived" : `last push ${relTime(e.pushedAt)}`;
-    const dl = typeof e.npmWk === "number" ? ` · npm ${fmtDl(e.npmWk)}` : "";
-    let line = `- 💀 **${name}** · ★${fmtStars(e.stars || 0)} · ${status}${dl}`;
-    if (e.desc) line += ` — ${e.desc}`;
-    if (e.successor) line += ` → **successor:** [${e.successor.split("/")[1]}](https://github.com/${e.successor})`;
-    if (e.successorNote) line += ` (${e.successorNote})`;
-    out.push(line);
+    const fate = e.deleted ? "deleted" : e.archived ? "archived" : "abandoned";
+    const dl = typeof e.npmWk === "number" ? fmtDl(e.npmWk).replace("/wk", "") : "";
+    const lastPush = e.deleted || !e.pushedAt ? "—" : relTime(e.pushedAt);
+    let successor = "—";
+    if (e.successor) {
+      successor = `[${cell(e.successor.split("/")[1])}](https://github.com/${e.successor})`;
+      if (e.successorNote) successor += ` (${cell(e.successorNote)})`;
+    }
+    out.push(`| **${cell(name)}** | 💀 ${fate} | ${fmtStars(e.stars || 0)} | ${dl} | ${lastPush} | ${successor} | ${cell(e.desc)} |`);
   }
   out.push("");
   out.push(`---`);
   out.push("");
   out.push(`## Method`);
   out.push("");
-  out.push(`- Source corpus: the 1,090 repositories listed in jondot/awesome-react-native (last updated 2021-04), plus notable post-2021 libraries added by the audit.`);
+  out.push(`- The index tracks ${entries.length} repositories across the React Native ecosystem; new libraries are added continuously by audit and by pull request.`);
   out.push(`- Each refresh re-checks every repository via the GitHub API (existence, last push, stars, archived) and npm weekly downloads for notable packages.`);
   out.push(`- Health classes: active ≤12 months, stale 12–36 months, dead >36 months / archived / deleted. Dead entries leave their category and appear in the graveyard.`);
   out.push(`- New Architecture badges are curated from confirmed sources only; an unlisted badge means "unverified", never "incompatible".`);
@@ -244,6 +253,12 @@ function render(db) {
   out.push(`- improving descriptions`);
   out.push(`- documenting a successor for a graveyard entry`);
   out.push(`- confirming or correcting a New Architecture badge (with a link as evidence)`);
+  out.push("");
+  out.push(`---`);
+  out.push("");
+  out.push(`## Inspiration`);
+  out.push("");
+  out.push(`This index started life as a full audit of [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) — the list that catalogued the ecosystem for years. Thanks to its maintainers for the foundation; everything since the 2021 snapshot is re-measured, re-classified, and continuously refreshed here.`);
   out.push("");
   fs.writeFileSync(readmePath, out.join("\n"));
   console.error(`README.md rendered: ${entries.length} entries (${counts.active}/${counts.stale}/${counts.dead}, ${newArchCount} new-arch)`);
