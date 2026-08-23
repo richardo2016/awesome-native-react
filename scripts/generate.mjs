@@ -96,44 +96,96 @@ function fmtDl(n) {
   return n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k/wk` : `${n}/wk`;
 }
 
-async function refresh(db) {
-  const live = db.entries.filter((e) => !e.deleted);
-  let idx = 0, done = 0, gone = 0;
-  async function worker() {
-    while (idx < live.length) {
-      const e = live[idx++];
-      const r = await run("gh", ["api", `repos/${e.listed}`, "--jq", "{full_name,pushed_at,stargazers_count,archived}"]);
-      if (r.code === 0) {
-        try {
-          const d = JSON.parse(r.stdout);
-          e.repo = d.full_name; e.pushedAt = d.pushed_at; e.stars = d.stargazers_count; e.archived = d.archived;
-          delete e.deleted;
-        } catch { /* keep old */ }
-      } else if (/404/.test(r.stderr)) {
-        e.deleted = true; gone++;
-      }
-      if (++done % 100 === 0) console.error(`refresh ${done}/${live.length}`);
-    }
-  }
-  await Promise.all(Array.from({ length: 10 }, worker));
-  console.error(`github refresh done: ${live.length} checked, ${gone} newly deleted`);
+// ---------------------------------------------------------------------------
+// Field ownership contract (auto-refresh vs human curation)
+//
+// Machine-owned (refresh may overwrite):
+//   repo, pushedAt, stars, archived, deleted, npmWk, topics
+//   desc  — synced from the official repo description, but ONLY when
+//           descManual is not set and the API returns a non-empty value
+//
+// Human-owned (refresh must NEVER touch):
+//   category, section, notes, successor, successorNote,
+//   addedByAudit, descManual, and anything in the curated badge sets
+// ---------------------------------------------------------------------------
 
+const GRAPHQL_BATCH = 50;
+
+async function ghGraphQL(token, query) {
+  const res = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: { authorization: `bearer ${token}`, "user-agent": "awesome-native-react-audit" },
+    body: JSON.stringify({ query }),
+  });
+  if (!res.ok) throw new Error(`GitHub GraphQL HTTP ${res.status}`);
+  const json = await res.json();
+  if (!json.data) throw new Error(`GitHub GraphQL error: ${json.errors?.[0]?.message || "unknown"}`);
+  return json.data; // NOT_FOUND entries surface as null values + benign errors
+}
+
+function repoFragment(alias, repoPath) {
+  const [owner, name] = repoPath.split("/");
+  return `${alias}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { nameWithOwner pushedAt stargazerCount isArchived description repositoryTopics(first: 8) { nodes { topic { name } } } }`;
+}
+
+async function refreshGithub(db, token) {
+  const entries = db.entries;
+  let checked = 0;
+  let gone = 0;
+  for (let i = 0; i < entries.length; i += GRAPHQL_BATCH) {
+    const batch = entries.slice(i, i + GRAPHQL_BATCH);
+    const query = "query {\n" + batch.map((e, j) => repoFragment(`r${j}`, e.listed)).join("\n") + "\n}";
+    const data = await ghGraphQL(token, query);
+    for (let j = 0; j < batch.length; j++) {
+      const e = batch[j];
+      const node = data[`r${j}`];
+      if (!node) {
+        if (!e.deleted) { e.deleted = true; gone++; }
+        continue;
+      }
+      if (e.deleted) delete e.deleted;
+      e.repo = node.nameWithOwner;
+      e.pushedAt = node.pushedAt;
+      e.stars = node.stargazerCount;
+      e.archived = node.isArchived;
+      e.topics = node.repositoryTopics.nodes.map((n) => n.topic.name);
+      if (!e.descManual && node.description) e.desc = node.description;
+    }
+    checked += batch.length;
+    if (checked % 250 === 0 || checked === entries.length) console.error(`github refresh ${checked}/${entries.length}`);
+    await new Promise((r) => setTimeout(r, 250));
+  }
+  console.error(`github refresh done: ${checked} checked, ${gone} deleted`);
+}
+
+async function refreshNpm(db) {
   const targets = db.entries.filter((e) => !e.deleted && (e.stars >= 800 || e.addedByAudit));
-  idx = 0;
-  async function npmWorker() {
-    while (idx < targets.length) {
-      const e = targets[idx++];
+  const queue = [...targets];
+  let done = 0;
+  async function worker() {
+    while (queue.length) {
+      const e = queue.shift();
       const pkg = (e.listed.split("/")[1] || "").toLowerCase();
-      if (!pkg) continue;
-      const r = await run("curl", ["-s", "-m", "8", `https://api.npmjs.org/downloads/point/last-week/${encodeURIComponent(pkg)}`]);
-      try {
-        const dl = JSON.parse(r.stdout).downloads;
-        if (typeof dl === "number") e.npmWk = dl;
-      } catch { /* ignore */ }
+      if (pkg) {
+        try {
+          const res = await fetch(`https://api.npmjs.org/downloads/point/last-week/${encodeURIComponent(pkg)}`, { signal: AbortSignal.timeout(8000) });
+          const dl = (await res.json()).downloads;
+          if (typeof dl === "number") e.npmWk = dl;
+        } catch { /* npm outages never fail the audit */ }
+      }
+      done++;
+      if (done % 100 === 0) console.error(`npm refresh ${done}/${targets.length}`);
     }
   }
-  await Promise.all(Array.from({ length: 12 }, npmWorker));
+  await Promise.all(Array.from({ length: 12 }, worker));
   console.error(`npm refresh done for ${targets.length} packages`);
+}
+
+async function refresh(db) {
+  const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
+  if (!token) throw new Error("refresh requires GH_TOKEN or GITHUB_TOKEN in the environment.");
+  await refreshGithub(db, token);
+  await refreshNpm(db);
   save(db);
 }
 
@@ -180,6 +232,7 @@ const STRINGS = {
     methodBody: (n) => [
       `- The index tracks ${n} repositories across the React Native ecosystem; new libraries are added continuously by audit and by pull request.`,
       "- Each refresh re-checks every repository via the GitHub API (existence, last push, stars, archived) and npm weekly downloads for notable packages.",
+      "- Objective data (existence, last push, stars, archived state, npm downloads, official descriptions) is auto-refreshed every two days by GitHub Actions. Subjective fields — notes, successors, categories, and New Architecture badges — are human-curated and never overwritten by the automation.",
       "- Health classes: active ≤12 months, stale 12–36 months, dead >36 months / archived / deleted. Dead entries leave their category and appear in the graveyard.",
       `- New Architecture badges are curated from confirmed sources only; an unlisted badge means "unverified", never "incompatible".`,
       "- Regenerate: `node scripts/generate.mjs all`",
@@ -226,6 +279,7 @@ const STRINGS = {
     methodBody: (n) => [
       `- 索引跟踪 React Native 生态中的 ${n} 个仓库；新库通过审计和 PR 持续加入。`,
       "- 每次刷新都会通过 GitHub API 重新核验每个仓库（存在性、最近推送、stars、归档状态），并查询知名包的 npm 周下载量。",
+      "- 客观数据（存在性、最近推送、stars、归档状态、npm 下载、官方描述）由 GitHub Actions 每两天自动刷新。主观字段——备注、继任者、分类、新架构徽章——由人工维护，自动化永不覆盖。",
       "- 健康分级：活跃 ≤12 个月，老化 12–36 个月，已死 >36 个月 / 已归档 / 已删除。已死条目离开原分类，进入墓地。",
       "- 新架构徽章仅根据已确认来源策展；未标注表示“未验证”，绝不表示“不兼容”。",
       "- 重新生成：`node scripts/generate.mjs all`",
