@@ -1,0 +1,192 @@
+#!/usr/bin/env node
+// Zero-dependency generator for awesome-react-native-live.
+// Usage:
+//   node scripts/generate.mjs refresh   # re-check every entry against GitHub + npm, update data/entries.json
+//   node scripts/generate.mjs render    # render README.md from data/entries.json
+//   node scripts/generate.mjs all       # refresh + render
+import { spawn } from "node:child_process";
+import fs from "node:fs";
+import path from "node:path";
+
+const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const dataPath = path.join(root, "data", "entries.json");
+const readmePath = path.join(root, "README.md");
+const NOW = Date.now();
+
+const CATEGORY_ORDER = [
+  "UI", "Navigation", "Deep Linking", "Text & Rich Content", "Analytics",
+  "Utils & Infra", "Forms", "Geolocation", "Internationalization",
+  "Build & Development", "Styling", "System", "Web", "Media", "Storage",
+  "Backend", "Integrations", "Monetization", "Animation", "Extension",
+  "Other Platforms", "Utilities", "Seeds", "Libraries", "Frameworks",
+  "Open Source Apps",
+];
+
+function load() {
+  return JSON.parse(fs.readFileSync(dataPath, "utf8"));
+}
+function save(db) {
+  db.updatedAt = new Date().toISOString();
+  fs.writeFileSync(dataPath, JSON.stringify(db, null, 1) + "\n");
+}
+function run(cmd, args, input) {
+  return new Promise((resolve) => {
+    const p = spawn(cmd, args, { encoding: "utf8" });
+    let so = "", se = "";
+    p.stdout.on("data", (d) => (so += d));
+    p.stderr.on("data", (d) => (se += d));
+    if (input !== undefined) { p.stdin.write(input); p.stdin.end(); }
+    p.on("close", (code) => resolve({ code, stdout: so, stderr: se }));
+  });
+}
+function ageDays(iso) {
+  return Math.floor((NOW - Date.parse(iso)) / 86400e3);
+}
+function classify(e) {
+  if (e.deleted || e.archived) return "dead";
+  if (!e.pushedAt) return "dead";
+  const d = ageDays(e.pushedAt);
+  if (d <= 365) return "active";
+  if (d <= 1095) return "stale";
+  return "dead";
+}
+function relTime(iso) {
+  const d = ageDays(iso);
+  if (d < 30) return `${d}d ago`;
+  if (d < 365) return `${Math.round(d / 30)}mo ago`;
+  return `${(d / 365).toFixed(1)}y ago`;
+}
+function fmtStars(n) {
+  return n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
+}
+function fmtDl(n) {
+  if (n === undefined || n === null) return "";
+  return n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k/wk` : `${n}/wk`;
+}
+
+async function refresh(db) {
+  const live = db.entries.filter((e) => !e.deleted);
+  let idx = 0, done = 0, gone = 0;
+  async function worker() {
+    while (idx < live.length) {
+      const e = live[idx++];
+      const r = await run("gh", ["api", `repos/${e.listed}`, "--jq", "{full_name,pushed_at,stargazers_count,archived}"]);
+      if (r.code === 0) {
+        try {
+          const d = JSON.parse(r.stdout);
+          e.repo = d.full_name; e.pushedAt = d.pushed_at; e.stars = d.stargazers_count; e.archived = d.archived;
+          delete e.deleted;
+        } catch { /* keep old */ }
+      } else if (/404/.test(r.stderr)) {
+        e.deleted = true; gone++;
+      }
+      if (++done % 100 === 0) console.error(`refresh ${done}/${live.length}`);
+    }
+  }
+  await Promise.all(Array.from({ length: 10 }, worker));
+  console.error(`github refresh done: ${live.length} checked, ${gone} newly deleted`);
+
+  const targets = db.entries.filter((e) => !e.deleted && (e.stars >= 800 || e.addedByAudit));
+  idx = 0;
+  async function npmWorker() {
+    while (idx < targets.length) {
+      const e = targets[idx++];
+      const pkg = (e.listed.split("/")[1] || "").toLowerCase();
+      if (!pkg) continue;
+      const r = await run("curl", ["-s", "-m", "8", `https://api.npmjs.org/downloads/point/last-week/${encodeURIComponent(pkg)}`]);
+      try {
+        const dl = JSON.parse(r.stdout).downloads;
+        if (typeof dl === "number") e.npmWk = dl;
+      } catch { /* ignore */ }
+    }
+  }
+  await Promise.all(Array.from({ length: 12 }, npmWorker));
+  console.error(`npm refresh done for ${targets.length} packages`);
+  save(db);
+}
+
+function render(db) {
+  const entries = db.entries.map((e) => ({ ...e, health: classify(e) }));
+  const counts = { active: 0, stale: 0, dead: 0 };
+  for (const e of entries) counts[e.health]++;
+
+  const out = [];
+  out.push(`# Awesome React Native — Live Edition`);
+  out.push("");
+  out.push(`A machine-audited successor to the classic [awesome-react-native](https://github.com/jondot/awesome-react-native) list (frozen since April 2021). Every entry is re-checked against GitHub and npm on each refresh: dead libraries are moved to the [graveyard](#-graveyard) with a successor when one exists.`);
+  out.push("");
+  out.push(`> **Last audit:** ${db.updatedAt.slice(0, 10)} · **${entries.length} entries** · ✅ ${counts.active} active · ⚠️ ${counts.stale} stale · 💀 ${counts.dead} dead/deleted`);
+  out.push("");
+  out.push(`**Legend:** ✅ active (pushed within 12 months) · ⚠️ stale (1–3 years, use with care) · 💀 dead (>3 years, archived, or deleted — not listed in categories, see graveyard)`);
+  out.push("");
+  out.push(`---`);
+  out.push("");
+  out.push(`## Categories`);
+  out.push("");
+
+  const byCat = new Map();
+  for (const e of entries) {
+    if (e.health === "dead") continue;
+    const key = CATEGORY_ORDER.includes(e.category) ? e.category : "Misc";
+    (byCat.get(key) || byCat.set(key, []).get(key)).push(e);
+  }
+  const cats = CATEGORY_ORDER.filter((c) => byCat.has(c));
+  if (byCat.has("Misc")) cats.push("Misc");
+
+  out.push(cats.map((c) => `[${c}](#${c.toLowerCase().replace(/[^a-z0-9]+/g, "-")})`).join(" · "));
+  out.push("");
+
+  for (const c of cats) {
+    const list = byCat.get(c).sort((a, b) => {
+      if (a.health !== b.health) return a.health === "active" ? -1 : 1;
+      return (b.stars || 0) - (a.stars || 0);
+    });
+    out.push(`### ${c}`);
+    out.push("");
+    for (const e of list) {
+      const icon = e.health === "active" ? "✅" : "⚠️";
+      const bits = [`★${fmtStars(e.stars || 0)}`, `pushed ${relTime(e.pushedAt)}`];
+      if (e.npmWk) bits.push(`npm ${fmtDl(e.npmWk)}`);
+      const desc = e.desc ? ` — ${e.desc}` : "";
+      const name = (e.listed.split("/")[1] || e.listed);
+      out.push(`- ${icon} [${name}](https://github.com/${e.repo || e.listed})${desc} · ${bits.join(" · ")}`);
+    }
+    out.push("");
+  }
+
+  const graves = entries
+    .filter((e) => e.health === "dead" && ((e.stars || 0) >= 1500 || e.deleted))
+    .sort((a, b) => (b.stars || 0) - (a.stars || 0));
+  out.push(`---`);
+  out.push("");
+  out.push(`## 💀 Graveyard`);
+  out.push("");
+  out.push(`Popular libraries that are dead, archived, or deleted. **Do not adopt for new projects.** A successor is listed when one exists.`);
+  out.push("");
+  for (const e of graves) {
+    const name = e.listed.split("/")[1] || e.listed;
+    const status = e.deleted ? "deleted" : e.archived ? "archived" : `last push ${relTime(e.pushedAt)}`;
+    let line = `- 💀 **${name}** · ★${fmtStars(e.stars || 0)} · ${status}`;
+    if (e.desc) line += ` — ${e.desc}`;
+    if (e.successor) line += ` → **successor:** [${e.successor.split("/")[1]}](https://github.com/${e.successor})`;
+    if (e.successorNote) line += ` (${e.successorNote})`;
+    out.push(line);
+  }
+  out.push("");
+  out.push(`---`);
+  out.push("");
+  out.push(`## Method`);
+  out.push("");
+  out.push(`- Source corpus: the 1,090 repositories listed in jondot/awesome-react-native (last updated 2021-04), plus notable post-2021 libraries added by audit.`);
+  out.push(`- Each refresh re-checks every repo via the GitHub API (existence, last push, stars, archived) and npm weekly downloads for notable packages.`);
+  out.push(`- Health classes: active ≤12 months, stale 12–36 months, dead >36 months / archived / deleted. Dead entries leave their category and appear in the graveyard.`);
+  out.push(`- Regenerate: \`node scripts/generate.mjs all\``);
+  out.push("");
+  fs.writeFileSync(readmePath, out.join("\n"));
+  console.error(`README.md rendered: ${entries.length} entries (${counts.active}/${counts.stale}/${counts.dead})`);
+}
+
+const cmd = process.argv[2] || "all";
+const db = load();
+if (cmd === "refresh" || cmd === "all") await refresh(db);
+if (cmd === "render" || cmd === "all") render(load());
