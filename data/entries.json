@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-08-23T11:44:47.331Z",
+ "updatedAt": "2026-08-23T16:44:24.721Z",
  "source": "jondot/awesome-react-native (frozen 2021-04) + 2026 audit additions",
  "entries": [
   {
@@ -82,7 +82,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "Lottie wrapper for React Native.",
-   "stars": 17204,
+   "stars": 17205,
    "pushedAt": "2026-08-22T20:26:01Z",
    "archived": false,
    "npmWk": 1394335,
@@ -137,7 +137,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "React Native Mapview component for iOS + Android",
-   "stars": 15990,
+   "stars": 15992,
    "pushedAt": "2026-08-05T03:06:36Z",
    "archived": false,
    "npmWk": 1152362,
@@ -185,7 +185,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "Tabbed navigation that you can swipe between, each tab can have  its own ScrollView and maintain its own scroll position between swipes. Pleasantly animated. Customizable tab bar",
-   "stars": 6945,
+   "stars": 6946,
    "pushedAt": "2024-06-23T08:18:54Z",
    "archived": false,
    "npmWk": 4078,
@@ -253,7 +253,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "React Native Calendar Components 🗓️ 📆 ",
-   "stars": 10309,
+   "stars": 10310,
    "pushedAt": "2026-04-23T05:51:55Z",
    "archived": false,
    "npmWk": 549115,
@@ -272,7 +272,7 @@
    "category": "UI",
    "section": "Components",
    "desc": ":boom: React Native UI Library based on Eva Design System  :new_moon_with_face::sparkles:Dark Mode",
-   "stars": 10672,
+   "stars": 10671,
    "pushedAt": "2026-08-07T19:44:24Z",
    "archived": false,
    "npmWk": 1505,
@@ -890,7 +890,8 @@
     "react",
     "carousel",
     "react-native"
-   ]
+   ],
+   "npmWk": 379
   },
   {
    "listed": "bgryszko/react-native-circular-progress",
@@ -907,7 +908,8 @@
     "circle",
     "animation",
     "progress"
-   ]
+   ],
+   "npmWk": 139979
   },
   {
    "listed": "jacklam718/react-native-popup-dialog",
@@ -926,7 +928,8 @@
     "dialog",
     "javascript",
     "es6"
-   ]
+   ],
+   "npmWk": 1962
   },
   {
    "listed": "bolan9999/react-native-largelist",
@@ -943,7 +946,8 @@
     "react-native",
     "flatlist",
     "high-performance-list"
-   ]
+   ],
+   "npmWk": 296
   },
   {
    "listed": "rauliyohmc/react-native-offline",
@@ -960,7 +964,8 @@
     "redux",
     "offline",
     "reactnative"
-   ]
+   ],
+   "npmWk": 10341
   },
   {
    "listed": "magicismight/react-native-root-toast",
@@ -971,7 +976,8 @@
    "stars": 2136,
    "pushedAt": "2025-11-07T00:15:40Z",
    "archived": false,
-   "topics": []
+   "topics": [],
+   "npmWk": 52853
   },
   {
    "listed": "testshallpass/react-native-dropdownalert",
@@ -987,7 +993,8 @@
     "dropdown",
     "alert",
     "notification"
-   ]
+   ],
+   "npmWk": 16191
   },
   {
    "listed": "niftylettuce/react-native-loading-spinner-overlay",
@@ -1007,7 +1014,8 @@
     "modal",
     "portal",
     "android"
-   ]
+   ],
+   "npmWk": 19132
   },
   {
    "listed": "meteor-factory/react-native-tinder-swipe-cards",
@@ -1031,7 +1039,8 @@
    "archived": false,
    "topics": [
     "react-native"
-   ]
+   ],
+   "npmWk": 10357
   },
   {
    "listed": "capitalone/react-native-pathjs-charts",
@@ -1051,7 +1060,8 @@
     "android",
     "react-native-svg",
     "cross-platform"
-   ]
+   ],
+   "npmWk": 229
   },
   {
    "listed": "lucasferreira/react-native-flash-message",
@@ -1067,7 +1077,8 @@
     "react-native",
     "javascript",
     "component"
-   ]
+   ],
+   "npmWk": 64708
   },
   {
    "listed": "JesperLekland/react-native-svg-charts",
@@ -1086,7 +1097,8 @@
     "charts",
     "svg",
     "react-native-svg"
-   ]
+   ],
+   "npmWk": 68317
   },
   {
    "listed": "brh55/react-native-masonry",
@@ -1105,7 +1117,8 @@
     "pinterest-like",
     "masonry",
     "pinterest"
-   ]
+   ],
+   "npmWk": 135
   },
   {
    "listed": "sbycrosz/react-native-credit-card-input",
@@ -1123,7 +1136,8 @@
     "credit-card",
     "ios",
     "android"
-   ]
+   ],
+   "npmWk": 3995
   },
   {
    "listed": "mfrachet/rn-placeholder",
@@ -1139,7 +1153,8 @@
     "react-native",
     "ux",
     "placeholder"
-   ]
+   ],
+   "npmWk": 23974
   },
   {
    "listed": "mfrachet/action-sheet-rn",
@@ -1189,7 +1204,8 @@
     "picker",
     "select",
     "selector"
-   ]
+   ],
+   "npmWk": 4148
   },
   {
    "listed": "ide/react-native-button",
@@ -1219,7 +1235,8 @@
     "google-maps",
     "floatingactionbutton",
     "nestedscrollview"
-   ]
+   ],
+   "npmWk": 138
   },
   {
    "listed": "aksonov/react-native-tabs",
@@ -1241,7 +1258,8 @@
    "stars": 866,
    "pushedAt": "2023-04-16T13:04:33Z",
    "archived": false,
-   "topics": []
+   "topics": [],
+   "npmWk": 1223
   },
   {
    "listed": "thegamenicorus/react-native-timeline-listview",
@@ -1258,7 +1276,8 @@
     "schedule",
     "android",
     "ios"
-   ]
+   ],
+   "npmWk": 265
   },
   {
    "listed": "MAKARD/react-native-toastboard",
@@ -1308,7 +1327,8 @@
     "react-native",
     "android",
     "ios"
-   ]
+   ],
+   "npmWk": 64495
   },
   {
    "listed": "cssivision/react-native-qrcode",
@@ -1322,7 +1342,8 @@
    "topics": [
     "qrcode",
     "react-native"
-   ]
+   ],
+   "npmWk": 508
   },
   {
    "listed": "crazycodeboy/react-native-easy-toast",
@@ -1338,7 +1359,8 @@
     "react-native-toast",
     "react-native",
     "react-toast"
-   ]
+   ],
+   "npmWk": 6405
   },
   {
    "listed": "jmurzy/react-router-native",
@@ -1369,7 +1391,8 @@
     "intro",
     "tooltip",
     "tutorial"
-   ]
+   ],
+   "npmWk": 15716
   },
   {
    "listed": "halilb/react-native-photo-browser",
@@ -1414,7 +1437,8 @@
     "calendar-api",
     "recurring-events",
     "ios-calendar-api"
-   ]
+   ],
+   "npmWk": 28931
   },
   {
    "listed": "taskrabbit/react-native-parsed-text",
@@ -1428,7 +1452,8 @@
    "topics": [
     "react-native",
     "parsing"
-   ]
+   ],
+   "npmWk": 108606
   },
   {
    "listed": "24ark/react-native-step-indicator",
@@ -1445,7 +1470,8 @@
     "viewpager",
     "listview",
     "progress-view"
-   ]
+   ],
+   "npmWk": 46396
   },
   {
    "listed": "jeanregisser/react-native-popover",
@@ -1487,7 +1513,8 @@
     "star-icon",
     "react-native-star-rating",
     "star"
-   ]
+   ],
+   "npmWk": 3688
   },
   {
    "listed": "ui-ninja/react-native-rating-element",
@@ -1598,7 +1625,8 @@
     "react-native",
     "scaling",
     "tablet"
-   ]
+   ],
+   "npmWk": 244866
   },
   {
    "listed": "jacklam718/react-native-button-component",
@@ -1636,7 +1664,8 @@
     "responsive",
     "flatlist",
     "responsive-grid"
-   ]
+   ],
+   "npmWk": 44166
   },
   {
    "listed": "naoufal/react-native-activity-view",
@@ -1664,7 +1693,8 @@
     "native",
     "javascript",
     "graphics"
-   ]
+   ],
+   "npmWk": 10234
   },
   {
    "listed": "syrusakbary/react-native-refresher",
@@ -1695,7 +1725,8 @@
     "listview",
     "scrollview",
     "scrollview-component"
-   ]
+   ],
+   "npmWk": 1669
   },
   {
    "listed": "spikef/react-native-gesture-password",
@@ -1739,7 +1770,8 @@
     "countries",
     "react-native",
     "modal"
-   ]
+   ],
+   "npmWk": 103075
   },
   {
    "listed": "ArnaudRinquin/react-native-radio-buttons",
@@ -1995,7 +2027,8 @@
    "stars": 922,
    "pushedAt": "2023-01-17T08:00:13Z",
    "archived": false,
-   "topics": []
+   "topics": [],
+   "npmWk": 2377
   },
   {
    "listed": "crabstudio/react-native-search-box",
@@ -2286,7 +2319,8 @@
     "shimmer",
     "module",
     "skeleton"
-   ]
+   ],
+   "npmWk": 69340
   },
   {
    "listed": "naoufal/react-native-progress-hud",
@@ -3009,7 +3043,8 @@
     "android",
     "maps",
     "directions"
-   ]
+   ],
+   "npmWk": 73757
   },
   {
    "listed": "terrylinla/react-native-sketch-canvas",
@@ -5298,7 +5333,8 @@
     "otp-inputs",
     "one-time-password",
     "android"
-   ]
+   ],
+   "npmWk": 354701
   },
   {
    "listed": "kwaak/react-native-android-circles",
@@ -6442,7 +6478,8 @@
     "react",
     "navigation",
     "navigator"
-   ]
+   ],
+   "npmWk": 37
   },
   {
    "listed": "Kureev/react-native-navbar",
@@ -7332,7 +7369,7 @@
    "section": "Components",
    "desc": "Gray box end-to-end testing and automation framework for mobile apps",
    "stars": 12011,
-   "pushedAt": "2026-06-16T16:59:49Z",
+   "pushedAt": "2026-08-23T14:33:32Z",
    "archived": false,
    "topics": [
     "e2e-tests",
@@ -7894,7 +7931,7 @@
    "category": "Forms",
    "section": "Components",
    "desc": "Build forms in React, without the tears 😭 ",
-   "stars": 34327,
+   "stars": 34328,
    "pushedAt": "2025-11-10T17:02:06Z",
    "archived": false,
    "topics": [
@@ -7914,7 +7951,7 @@
    "category": "Forms",
    "section": "Components",
    "desc": "📋 React Hooks for form state management and validation (Web + React Native)",
-   "stars": 44824,
+   "stars": 44825,
    "pushedAt": "2026-08-23T09:41:30Z",
    "archived": false,
    "topics": [
@@ -8775,7 +8812,7 @@
    "section": "Components",
    "desc": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
    "stars": 12300,
-   "pushedAt": "2026-08-22T23:25:06Z",
+   "pushedAt": "2026-08-23T15:54:27Z",
    "archived": false,
    "topics": [
     "firebase",
@@ -8810,7 +8847,7 @@
    "category": "System",
    "section": "Components",
    "desc": "Device Information for React Native iOS and Android",
-   "stars": 6680,
+   "stars": 6681,
    "pushedAt": "2026-08-18T22:52:53Z",
    "archived": false,
    "topics": [
@@ -9423,7 +9460,7 @@
    "category": "System",
    "section": "Components",
    "desc": "📲 Communicate with nearby devices using Bluetooth, BLE, WiFi and near-ultrasonic audio. Broadcast and receive small payloads (like strings) using the easy-to-use React Native API!",
-   "stars": 230,
+   "stars": 231,
    "pushedAt": "2023-03-04T21:51:34Z",
    "archived": false,
    "topics": [
@@ -12122,7 +12159,7 @@
    "category": "Animation",
    "section": "Components",
    "desc": "React Native's Animated library reimplemented",
-   "stars": 10960,
+   "stars": 10961,
    "pushedAt": "2026-08-22T10:05:46Z",
    "archived": false,
    "topics": [
@@ -12704,7 +12741,7 @@
    "category": "Seeds",
    "section": "Seeds",
    "desc": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting.",
-   "stars": 19931,
+   "stars": 19933,
    "pushedAt": "2026-06-07T01:18:58Z",
    "archived": false,
    "topics": [
@@ -14028,7 +14065,7 @@
    "section": "Open Source Apps",
    "desc": "The Secure CommsOS™ for mission-critical operations",
    "stars": 2412,
-   "pushedAt": "2026-08-21T20:39:48Z",
+   "pushedAt": "2026-08-23T15:27:21Z",
    "archived": false,
    "topics": [
     "hacktoberfest",
@@ -14876,8 +14913,8 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-   "stars": 56057,
-   "pushedAt": "2026-08-22T21:04:24Z",
+   "stars": 56064,
+   "pushedAt": "2026-08-23T14:07:47Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -15318,7 +15355,7 @@
    "section": "Components",
    "desc": "High-performance React Native Graphics using Skia",
    "stars": 8521,
-   "pushedAt": "2026-08-23T11:03:55Z",
+   "pushedAt": "2026-08-23T14:19:03Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15333,8 +15370,8 @@
    "category": "Storage",
    "section": "Components",
    "desc": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
-   "stars": 8473,
-   "pushedAt": "2026-08-20T16:14:53Z",
+   "stars": 8474,
+   "pushedAt": "2026-08-23T16:36:33Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15355,7 +15392,7 @@
    "section": "Components",
    "desc": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.",
    "stars": 14152,
-   "pushedAt": "2026-08-23T11:37:51Z",
+   "pushedAt": "2026-08-23T16:25:42Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15460,7 +15497,7 @@
    "category": "UI",
    "section": "Modal & Overlays",
    "desc": "A performant interactive bottom sheet with fully configurable options 🚀",
-   "stars": 9071,
+   "stars": 9072,
    "pushedAt": "2026-05-09T18:28:02Z",
    "archived": false,
    "addedByAudit": true,
@@ -15517,8 +15554,8 @@
    "category": "Frameworks",
    "section": "Frameworks",
    "desc": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-   "stars": 51766,
-   "pushedAt": "2026-08-23T11:41:26Z",
+   "stars": 51769,
+   "pushedAt": "2026-08-23T16:39:23Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
