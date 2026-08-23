@@ -1,9 +1,9 @@
 {
-  "name": "awesome-react-native-live",
+  "name": "awesome-native-react",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Machine-audited awesome list for the React Native ecosystem: live health checks, freshness badges, and a graveyard with successors.",
+  "description": "The machine-audited React Native ecosystem index",
   "scripts": {
     "refresh": "node scripts/generate.mjs refresh",
     "render": "node scripts/generate.mjs render",

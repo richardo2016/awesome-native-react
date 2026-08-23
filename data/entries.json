@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-08-23T05:44:53.850Z",
+ "updatedAt": "2026-08-23T08:23:49.825Z",
  "source": "jondot/awesome-react-native (frozen 2021-04) + 2026 audit additions",
  "entries": [
   {
@@ -10926,6 +10926,171 @@
    "stars": 8060,
    "pushedAt": "2026-07-17T05:30:31Z",
    "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "software-mansion/react-native-gesture-handler",
+   "repo": "software-mansion/react-native-gesture-handler",
+   "category": "UI",
+   "section": "Gestures",
+   "desc": "Declarative API for native gesture handling",
+   "stars": 6779,
+   "pushedAt": "2026-08-21T14:22:10Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "software-mansion/react-native-screens",
+   "repo": "software-mansion/react-native-screens",
+   "category": "Navigation",
+   "section": "Navigation",
+   "desc": "Native navigation primitives for Fabric and legacy",
+   "stars": 3718,
+   "pushedAt": "2026-08-21T23:35:54Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "shopify/flash-list",
+   "repo": "Shopify/flash-list",
+   "category": "UI",
+   "section": "List Views",
+   "desc": "Fast and performant FlatList replacement",
+   "stars": 7182,
+   "pushedAt": "2026-08-19T17:36:34Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "gorhom/react-native-bottom-sheet",
+   "repo": "gorhom/react-native-bottom-sheet",
+   "category": "UI",
+   "section": "Modal & Overlays",
+   "desc": "Performant and interactive bottom sheet",
+   "stars": 9071,
+   "pushedAt": "2026-05-09T18:28:02Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "mrousavy/react-native-vision-camera",
+   "repo": "mrousavy/react-native-vision-camera",
+   "category": "Media",
+   "section": "Camera",
+   "desc": "Modern camera library: photos, video, code scanning",
+   "stars": 9571,
+   "pushedAt": "2026-08-21T14:34:05Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "callstack/react-native-pager-view",
+   "repo": "callstack/react-native-pager-view",
+   "category": "UI",
+   "section": "Tabs",
+   "desc": "Native pager view (swipeable pages)",
+   "stars": 3350,
+   "pushedAt": "2026-08-15T08:04:59Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "expo/expo",
+   "repo": "expo/expo",
+   "category": "Frameworks",
+   "section": "Frameworks",
+   "desc": "Expo SDK platform monorepo",
+   "stars": 51762,
+   "pushedAt": "2026-08-23T08:20:10Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "react-native-webview/react-native-webview",
+   "repo": "react-native-webview/react-native-webview",
+   "category": "Web",
+   "section": "WebView",
+   "desc": "Community-maintained WebView component",
+   "stars": 7188,
+   "pushedAt": "2026-07-12T08:04:54Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "react-native-async-storage/async-storage",
+   "repo": "react-native-async-storage/async-storage",
+   "category": "Storage",
+   "section": "Storage",
+   "desc": "Asynchronous, persistent key-value storage",
+   "stars": 5072,
+   "pushedAt": "2026-08-23T02:03:39Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "react-native-netinfo/react-native-netinfo",
+   "repo": "react-native-netinfo/react-native-netinfo",
+   "category": "Utils & Infra",
+   "section": "Networking",
+   "desc": "Network state and connectivity info",
+   "stars": 2180,
+   "pushedAt": "2026-02-15T14:37:30Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "react-native-datetimepicker/datetimepicker",
+   "repo": "react-native-datetimepicker/datetimepicker",
+   "category": "UI",
+   "section": "Date & Time",
+   "desc": "Native date and time picker",
+   "stars": 2908,
+   "pushedAt": "2026-08-14T13:43:10Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "react-native-picker/picker",
+   "repo": "react-native-picker/picker",
+   "category": "UI",
+   "section": "Picker",
+   "desc": "Native picker component",
+   "stars": 1767,
+   "pushedAt": "2026-01-21T23:45:43Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "react-native-clipboard/clipboard",
+   "repo": "react-native-clipboard/clipboard",
+   "category": "System",
+   "section": "Clipboard",
+   "desc": "Clipboard access",
+   "stars": 766,
+   "pushedAt": "2026-01-21T23:56:32Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "th3rdwave/react-native-safe-area-context",
+   "repo": "appandflow/react-native-safe-area-context",
+   "category": "UI",
+   "section": "Layout",
+   "desc": "Flexible way to handle safe area insets",
+   "stars": 2752,
+   "pushedAt": "2026-08-20T21:18:11Z",
+   "archived": false,
+   "addedByAudit": true
+  },
+  {
+   "listed": "shopify/react-native-performance",
+   "repo": "Shopify/react-native-performance",
+   "category": "Utils & Infra",
+   "section": "Performance",
+   "desc": "Performance measurement for your app startup and navigation",
+   "stars": 975,
+   "pushedAt": "2025-11-25T05:24:44Z",
+   "archived": true,
    "addedByAudit": true
   }
  ]
