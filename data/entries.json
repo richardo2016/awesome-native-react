@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-08-23T09:35:18.138Z",
+ "updatedAt": "2026-08-23T11:44:47.331Z",
  "source": "jondot/awesome-react-native (frozen 2021-04) + 2026 audit additions",
  "entries": [
   {
@@ -778,7 +778,7 @@
    "stars": 2219,
    "pushedAt": "2026-01-31T17:48:02Z",
    "archived": false,
-   "npmWk": 13972,
+   "npmWk": 13811,
    "topics": []
   },
   {
@@ -790,7 +790,7 @@
    "stars": 1993,
    "pushedAt": "2024-08-15T14:55:50Z",
    "archived": true,
-   "npmWk": 446300,
+   "npmWk": 449874,
    "topics": [
     "react-native",
     "react",
@@ -808,7 +808,7 @@
    "stars": 1757,
    "pushedAt": "2022-05-29T03:52:37Z",
    "archived": false,
-   "npmWk": 961,
+   "npmWk": 995,
    "topics": []
   },
   {
@@ -820,7 +820,7 @@
    "stars": 2591,
    "pushedAt": "2024-08-27T20:12:04Z",
    "archived": false,
-   "npmWk": 200397,
+   "npmWk": 199642,
    "topics": [
     "react-native",
     "accordion",
@@ -837,7 +837,7 @@
    "stars": 1140,
    "pushedAt": "2018-10-01T08:50:33Z",
    "archived": false,
-   "npmWk": 1924,
+   "npmWk": 1942,
    "topics": []
   },
   {
@@ -856,7 +856,7 @@
    "stars": 1407,
    "pushedAt": "2022-01-24T11:08:05Z",
    "archived": false,
-   "npmWk": 105,
+   "npmWk": 94,
    "topics": []
   },
   {
@@ -874,7 +874,8 @@
     "ios",
     "helper",
     "clean-code"
-   ]
+   ],
+   "npmWk": 4809
   },
   {
    "listed": "appintheair/react-native-looped-carousel",
@@ -4042,7 +4043,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "An inline wrapper for calling out React Native components via tooltip",
-   "stars": 687,
+   "stars": 688,
    "pushedAt": "2024-05-10T19:40:50Z",
    "archived": false,
    "topics": [
@@ -7914,7 +7915,7 @@
    "section": "Components",
    "desc": "📋 React Hooks for form state management and validation (Web + React Native)",
    "stars": 44824,
-   "pushedAt": "2026-08-23T09:28:12Z",
+   "pushedAt": "2026-08-23T09:41:30Z",
    "archived": false,
    "topics": [
     "typescript",
@@ -8538,7 +8539,7 @@
    "category": "Styling",
    "section": "Components",
    "desc": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API.",
-   "stars": 41120,
+   "stars": 41121,
    "pushedAt": "2026-08-17T17:53:56Z",
    "archived": false,
    "topics": [
@@ -12121,7 +12122,7 @@
    "category": "Animation",
    "section": "Components",
    "desc": "React Native's Animated library reimplemented",
-   "stars": 10959,
+   "stars": 10960,
    "pushedAt": "2026-08-22T10:05:46Z",
    "archived": false,
    "topics": [
@@ -15317,7 +15318,7 @@
    "section": "Components",
    "desc": "High-performance React Native Graphics using Skia",
    "stars": 8521,
-   "pushedAt": "2026-08-23T07:58:37Z",
+   "pushedAt": "2026-08-23T11:03:55Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15354,7 +15355,7 @@
    "section": "Components",
    "desc": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.",
    "stars": 14152,
-   "pushedAt": "2026-08-23T06:30:21Z",
+   "pushedAt": "2026-08-23T11:37:51Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15516,8 +15517,8 @@
    "category": "Frameworks",
    "section": "Frameworks",
    "desc": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-   "stars": 51763,
-   "pushedAt": "2026-08-23T08:20:10Z",
+   "stars": 51766,
+   "pushedAt": "2026-08-23T11:41:26Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [

@@ -119,7 +119,7 @@
 | <a href="https://github.com/terrylinla/react-native-sketch-canvas" target="_blank" rel="noopener">react-native-sketch-canvas</a> | 🟡 | 716 |  | 2.1 年前 | A React Native component for drawing by touching on both iOS and Android. |
 | <a href="https://github.com/mmazzarolo/react-native-dialog" target="_blank" rel="noopener">react-native-dialog</a> | 🟡 | 711 |  | 2.4 年前 | Pure JavaScript React-Native dialog |
 | <a href="https://github.com/HosseinShabani/react-native-modern-datepicker" target="_blank" rel="noopener">react-native-modern-datepicker</a> | 🟡 | 710 |  | 2.3 年前 | A customizable calendar, time & month picker for React Native (including Persian Jalaali calendar & locale) |
-| <a href="https://github.com/jasongaare/react-native-walkthrough-tooltip" target="_blank" rel="noopener">react-native-walkthrough-tooltip</a> | 🟡 | 687 |  | 2.3 年前 | An inline wrapper for calling out React Native components via tooltip |
+| <a href="https://github.com/jasongaare/react-native-walkthrough-tooltip" target="_blank" rel="noopener">react-native-walkthrough-tooltip</a> | 🟡 | 688 |  | 2.3 年前 | An inline wrapper for calling out React Native components via tooltip |
 | <a href="https://github.com/joshswan/react-native-autolink" target="_blank" rel="noopener">react-native-autolink</a> | 🟡 | 662 |  | 2.9 年前 | Automatic linking of URLs, phone numbers, emails, handles, and even custom patterns in text for React Native |
 | <a href="https://github.com/react-native-dialogs/react-native-dialogs" target="_blank" rel="noopener">react-native-dialogs</a> | 🟡 | 602 |  | 2.7 年前 | React Native wrappers for https://github.com/afollestad/material-dialogs |
 | <a href="https://github.com/Purii/react-native-tableview-simple" target="_blank" rel="noopener">react-native-tableview-simple</a> | 🟡 | 577 |  | 2.0 年前 | Flexible and lightweight React Native component for UITableView made with pure CSS |
@@ -152,7 +152,7 @@
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/react/react-native" target="_blank" rel="noopener">react-native</a> | ✅ | 126k |  | 今天 | A framework for building native applications using React |
 | <a href="https://github.com/react-navigation/react-navigation" target="_blank" rel="noopener">react-navigation</a> | ✅ | 24k |  | 3 天前 | Routing and navigation for React Native and Web apps |
-| <a href="https://github.com/wix/react-native-navigation" target="_blank" rel="noopener">react-native-navigation</a> | ✅ | 13k |  | 20 天前 | A complete native navigation solution for React Native |
+| <a href="https://github.com/wix/react-native-navigation" target="_blank" rel="noopener">react-native-navigation</a> | ✅ | 13k |  | 21 天前 | A complete native navigation solution for React Native |
 | <a href="https://github.com/software-mansion/react-native-screens" target="_blank" rel="noopener">react-native-screens</a> | ✅ ✨ | 3.7k |  | 1 天前 | Native navigation primitives for your React Native app. |
 | <a href="https://github.com/airbnb/native-navigation" target="_blank" rel="noopener">native-navigation</a> | ✅ | 3.1k |  | 10 个月前 | Native navigation library for React Native applications |
 | <a href="https://github.com/gusgard/react-native-swiper-flatlist" target="_blank" rel="noopener">react-native-swiper-flatlist</a> | ✅ | 600 |  | 6 个月前 | 👆 Swiper component implemented with FlatList using Hooks & Typescript + automation tests with Detox |
@@ -283,7 +283,7 @@
 | <a href="https://github.com/shahen94/react-native-video-processing" target="_blank" rel="noopener">react-native-video-processing</a> | ✅ | 1.3k |  | 7 个月前 | Native Video editing/trimming/compressing  :movie_camera: library for React-Native |
 | <a href="https://github.com/imgly/vesdk-react-native" target="_blank" rel="noopener">vesdk-react-native</a> | ✅ | 154 |  | 4 个月前 | React Native module for VideoEditor SDK |
 | <a href="https://github.com/imgly/pesdk-react-native" target="_blank" rel="noopener">pesdk-react-native</a> | ✅ | 126 |  | 4 个月前 | React Native module for PhotoEditor SDK |
-| <a href="https://github.com/zxcpoiu/react-native-incall-manager" target="_blank" rel="noopener">react-native-incall-manager</a> | ✅ | 30 |  | 29 天前 | This repo has been moved to https://github.com/react-native-webrtc/react-native-incall-manager |
+| <a href="https://github.com/zxcpoiu/react-native-incall-manager" target="_blank" rel="noopener">react-native-incall-manager</a> | ✅ | 30 |  | 1 个月前 | This repo has been moved to https://github.com/react-native-webrtc/react-native-incall-manager |
 | <a href="https://github.com/react-native-audio-toolkit/react-native-audio-toolkit" target="_blank" rel="noopener">react-native-audio-toolkit</a> | 🟡 | 1.1k |  | 2.5 年前 | Cross-platform audio library for React Native |
 | <a href="https://github.com/maxs15/react-native-screcorder" target="_blank" rel="noopener">react-native-screcorder</a> | 🟡 | 232 |  | 2.8 年前 | A <Recorder /> element for react-native |
 | <a href="https://github.com/ghondar/react-native-vlc-player" target="_blank" rel="noopener">react-native-vlc-player</a> | 🟡 | 161 |  | 2.8 年前 | VLC Player for react-native |
@@ -306,7 +306,7 @@
 
 | 库 | 状态 | Stars | npm/周 | 最近推送 | 备注 |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/appbaseio/reactivesearch" target="_blank" rel="noopener">reactivesearch</a> | ✅ | 4.9k |  | 12 天前 | Search UI components for React and Vue |
+| <a href="https://github.com/appbaseio/reactivesearch" target="_blank" rel="noopener">reactivesearch</a> | ✅ | 4.9k |  | 13 天前 | Search UI components for React and Vue |
 | <a href="https://github.com/aroth/react-native-uploader" target="_blank" rel="noopener">react-native-uploader</a> | ✅ | 510 |  | 7 个月前 | A React Native module to upload files and camera roll assets. |
 | <a href="https://github.com/edeckers/react-native-blob-courier" target="_blank" rel="noopener">react-native-blob-courier</a> | ✅ | 136 |  | 3 个月前 | Use this library to efficiently download and upload blobs in React Native. |
 | <a href="https://github.com/pervasync/react-native-sync" target="_blank" rel="noopener">react-native-sync</a> | ✅ | 59 |  | 1 个月前 | Two way, incremental sync between React Native realmjs database and MySQL, Oracle, MS SQL Server and PostgreSQL  |
@@ -321,7 +321,7 @@
 | <a href="https://github.com/AgoraIO-Extensions/react-native-agora" target="_blank" rel="noopener">react-native-agora</a> | ✅ | 653 |  | 4 天前 | React Native around the Agora RTC SDKs for Android and iOS agora |
 | <a href="https://github.com/voximplant/react-native-voximplant" target="_blank" rel="noopener">react-native-voximplant</a> | ✅ | 206 |  | 2 个月前 | Voximplant mobile SDK for React Native (iOS/Android) |
 | <a href="https://github.com/testfairy/react-native-testfairy" target="_blank" rel="noopener">react-native-testfairy</a> | ✅ | 33 |  | 17 天前 | React Native component for TestFairy SDK |
-| <a href="https://github.com/bugfender/rn-bugfender" target="_blank" rel="noopener">rn-bugfender</a> | ✅ | 30 |  | 26 天前 | Bugfender for React Native  |
+| <a href="https://github.com/bugfender/rn-bugfender" target="_blank" rel="noopener">rn-bugfender</a> | ✅ | 30 |  | 27 天前 | Bugfender for React Native  |
 | <a href="https://github.com/reactnativecn/react-native-qq" target="_blank" rel="noopener">react-native-qq</a> | 🟡 | 306 |  | 2.5 年前 | QQ Login&Share support in React Native. |
 
 ### Monetization
@@ -335,7 +335,7 @@
 
 | 库 | 状态 | Stars | npm/周 | 最近推送 | 备注 |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/software-mansion/react-native-reanimated" target="_blank" rel="noopener">react-native-reanimated</a> | ✅ ✨ | 11k |  | 今天 | React Native's Animated library reimplemented |
+| <a href="https://github.com/software-mansion/react-native-reanimated" target="_blank" rel="noopener">react-native-reanimated</a> | ✅ ✨ | 11k |  | 1 天前 | React Native's Animated library reimplemented |
 | <a href="https://github.com/wix-incubator/react-native-interactable" target="_blank" rel="noopener">react-native-interactable</a> | ✅ | 5.2k |  | 2 个月前 | Experimental implementation of high performance interactable views in React Native |
 | <a href="https://github.com/oblador/react-native-animatable" target="_blank" rel="noopener">react-native-animatable</a> | 🟡 | 9.9k |  | 2.8 年前 | Standard set of easy to use animations and declarative transitions for React Native |
 
@@ -402,7 +402,7 @@
 | <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative" target="_blank" rel="noopener">Rocket.Chat.ReactNative</a> | ✅ | 2.4k |  | 1 天前 | The Secure CommsOS™ for mission-critical operations |
 | <a href="https://github.com/NMF-earth/nmf-app" target="_blank" rel="noopener">nmf-app</a> | ✅ | 541 |  | 5 个月前 | Understand and reduce your carbon footprint 🌱 iOS & Android. |
 | <a href="https://github.com/hello-nyxo/nyxo-app" target="_blank" rel="noopener">nyxo-app</a> | ✅ | 301 |  | 4 个月前 | The repository for Nyxo React Native app, a personal sleep tracker and sleep coach |
-| <a href="https://github.com/JetBrains/youtrack-mobile" target="_blank" rel="noopener">youtrack-mobile</a> | ✅ | 285 |  | 17 天前 | A iOS and Android client for YouTrack |
+| <a href="https://github.com/JetBrains/youtrack-mobile" target="_blank" rel="noopener">youtrack-mobile</a> | ✅ | 285 |  | 18 天前 | A iOS and Android client for YouTrack |
 | <a href="https://github.com/gitpoint/git-point" target="_blank" rel="noopener">git-point</a> | 🟡 | 4.8k |  | 2.2 年前 | GitHub in your pocket :iphone: |
 | <a href="https://github.com/Flaque/quirk" target="_blank" rel="noopener">quirk</a> | 🟡 | 2.3k |  | 2.1 年前 | ✨🐙 A GPL Licensed Cognitive Behavioral Therapy app for iOS and Android. Currently a teaching tool |
 | <a href="https://github.com/catalinmiron/react-native-dribbble-app" target="_blank" rel="noopener">react-native-dribbble-app</a> | 🟡 | 2.1k |  | 2.9 年前 | Dribbble app built with React Native |
@@ -433,7 +433,7 @@
 
 已死、已归档或已删除的流行库。**请勿在新项目中采用。** 如有继任者，会一并标注。
 
-> ⚠️ 审计发现，每周仍有 **约 594k 次 npm 下载**流向以下已死库。每一次安装都是未来的迁移账单。
+> ⚠️ 审计发现，每周仍有 **约 602k 次 npm 下载**流向以下已死库。每一次安装都是未来的迁移账单。
 
 | 库 | 结局 | Stars | npm/周 | 最近推送 | 继任者 | 备注 |
 | --- | --- | ---: | ---: | --- | --- | --- |
@@ -472,22 +472,22 @@
 | **rn-placeholder** | 💀 已废弃 | 2.1k |  | 3.6 年前 | — | 🏖️ Display some placeholder stuff before rendering your text or media content in React Native |
 | **react-native-datepicker** | 💀 已废弃 | 2.1k | 6.2k | 3.3 年前 | — | react native datePicker component for both Android and IOS, useing DatePikcerAndroid, TimePickerAndroid and DatePickerIOS |
 | **FinanceReactNative** | 💀 已废弃 | 2.1k |  | 3.7 年前 | — | [Deprecated] iOS's Stocks App clone written in React Native for demo purpose (available both iOS and Android). |
-| **nachos-ui** | 💀 已废弃 | 2.1k | 38 | 5.4 年前 | — | Nachos UI is a React Native component library. |
+| **nachos-ui** | 💀 已废弃 | 2.1k | 38 | 5.5 年前 | — | Nachos UI is a React Native component library. |
 | **alita** | 💀 已废弃 | 2.0k |  | 6.0 年前 | — | 一套把React Native代码转换成微信小程序代码的转换引擎工具。我们不造轮子，不发明新框架，只是提供工具把RN扩展到微信小程序端。 |
-| **victory-native** | 💀 已归档 | 2.0k | 446k | 2.0 年前 | — | victory components for react native |
+| **victory-native** | 💀 已归档 | 2.0k | 450k | 2.0 年前 | — | victory components for react native |
 | **react-instantsearch** | 💀 已归档 | 2.0k |  | 3.6 年前 | — | ⚡️ Lightning-fast search for React and React Native applications, by Algolia. |
 | **react-native-foldview** | 💀 已废弃 | 2.0k | 8 | 8.1 年前 | — | FoldView implemented in JavaScript ⛱ |
 | **gl-react-native** | 💀 已归档 | 1.9k | 175 | 6.6 年前 | — | DEPRECATED, Please migrate to latest version of gl-react-native that works nicely with expo-gl and unimodules |
 | **react-native-template-typescript** | 💀 已废弃 | 1.9k |  | 3.2 年前 | — | 👾 Clean and minimalist React Native template for a quick start with TypeScript. |
 | **react-native-navbar** | 💀 已废弃 | 1.9k |  | 4.3 年前 | — | Navbar component for React Native |
 | **movieapp** | 💀 已废弃 | 1.8k |  | 4.8 年前 | — | Discover Movies and TV shows -  React Native  |
-| **react-native-picker** | 💀 已废弃 | 1.8k | 961 | 4.2 年前 | — | A Native Picker with high performance. |
+| **react-native-picker** | 💀 已废弃 | 1.8k | 995 | 4.2 年前 | — | A Native Picker with high performance. |
 | **react-native-arkit** | 💀 已废弃 | 1.7k |  | 3.6 年前 | — | React Native binding for iOS ARKit |
 | **react-native-fcm** | 💀 已废弃 | 1.7k |  | 3.7 年前 | — | react native module for firebase cloud messaging and local notification |
 | **react-native-gitfeed** | 💀 已废弃 | 1.7k |  | 9.4 年前 | — | Yet another Github client written with react-native. |
 | **react-native-gifted-listview** | 💀 已废弃 | 1.6k | 16 | 8.2 年前 | — | ✌️ ListView with pull-to-refresh and infinite scrolling for Android and iOS React-Native apps |
 | **native-starter-kit** | 💀 已废弃 | 1.6k |  | 8.0 年前 | — | React Native Starter App with NativeBase + CodePush + Redux |
-| **react-native-keyboard-spacer** | 💀 已废弃 | 1.6k |  | 3.3 年前 | — | Plug and play react-native keyboard spacer view. |
+| **react-native-keyboard-spacer** | 💀 已废弃 | 1.6k | 4.8k | 3.3 年前 | — | Plug and play react-native keyboard spacer view. |
 | **react-native-chart** | 💀 已废弃 | 1.6k | 80 | 6.3 年前 | — | [NOT MAINTAINED] :bar_chart: Add line, area, pie, and bar charts to your React Native app |
 | **react-virgin** | 💀 已废弃 | 1.5k |  | 3.6 年前 | — | The react-native UI Kit you've been looking for. |
 | **react-native-releases** | 💀 已归档 | 1.5k |  | 4.2 年前 | — | React Native releases |
