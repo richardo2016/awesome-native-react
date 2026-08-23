@@ -80,6 +80,14 @@ function relTime(iso) {
   if (d < 365) return `${Math.round(d / 30)}mo ago`;
   return `${(d / 365).toFixed(1)}y ago`;
 }
+function relTimeLocale(iso, locale) {
+  if (locale !== "zh") return relTime(iso);
+  const d = ageDays(iso);
+  if (d <= 0) return "今天";
+  if (d < 30) return `${d} 天前`;
+  if (d < 365) return `${Math.round(d / 30)} 个月前`;
+  return `${(d / 365).toFixed(1)} 年前`;
+}
 function fmtStars(n) {
   return n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
 }
@@ -137,7 +145,107 @@ function cell(text) {
   return String(text || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 }
 
-function render(db) {
+function libLink(repo, name) {
+  return `<a href="https://github.com/${repo}" target="_blank" rel="noopener">${cell(name)}</a>`;
+}
+
+const STRINGS = {
+  en: {
+    file: "README.md",
+    switcher: "**Language: English | [简体中文](./README.zh-CN.md)**",
+    intro: "The **machine-audited React Native ecosystem index**. Every library is re-verified against GitHub and npm on each audit: maintenance health is measured, not claimed, and dead libraries are moved to the [graveyard](#-graveyard) with a successor when one exists.",
+    noPaid: "No badge in this index is paid, requested, or manually overridden.",
+    stats: (d) => `> **Last audit:** ${d.date} · **${d.total} libraries** · ✅ ${d.active} active · 🟡 ${d.stale} stale · 💀 ${d.dead} dead/deleted · ✨ ${d.arch} confirmed New Architecture`,
+    legendTitle: "| Badge | Meaning |",
+    legend: [
+      "| ✅ Active | pushed within the last 12 months |",
+      "| 🟡 Stale | 1–3 years without a push — use with care |",
+      "| 💀 Dead | archived, deleted, or >3 years silent — see the [graveyard](#-graveyard) |",
+      "| ✨ New Arch | confirmed React Native New Architecture (Fabric / TurboModules) support |",
+    ],
+    categories: "## Categories",
+    columns: "| Library | Health | Stars | npm/wk | Last push | Notes |",
+    builtByUs: "## 🛠 Built by us",
+    builtByUsBody: [
+      "This index is maintained by a team of heavy React Native users that also builds **first-party libraries to fill the gaps the audit exposes** — dead high-traffic packages, abandoned infrastructure, and missing New Architecture support. Our projects will always be disclosed here, clearly labeled, and never blended into the audited categories above.",
+      "",
+      "> Nothing published yet — the first library is in development. **Watch this repository** to be notified.",
+    ],
+    graveyard: "## 💀 Graveyard",
+    graveyardIntro: "Popular libraries that are dead, archived, or deleted. **Do not adopt them for new projects.** A successor is listed when one exists.",
+    graveyardWarning: (dl) => `> ⚠️ The audit measured **≈${dl} weekly npm downloads** still flowing into dead libraries below. Every one of those installs is a future migration bill.`,
+    graveyardColumns: "| Library | Fate | Stars | npm/wk | Last push | Successor | Notes |",
+    fate: { deleted: "deleted", archived: "archived", abandoned: "abandoned" },
+    method: "## Method",
+    methodBody: (n) => [
+      `- The index tracks ${n} repositories across the React Native ecosystem; new libraries are added continuously by audit and by pull request.`,
+      "- Each refresh re-checks every repository via the GitHub API (existence, last push, stars, archived) and npm weekly downloads for notable packages.",
+      "- Health classes: active ≤12 months, stale 12–36 months, dead >36 months / archived / deleted. Dead entries leave their category and appear in the graveyard.",
+      `- New Architecture badges are curated from confirmed sources only; an unlisted badge means "unverified", never "incompatible".`,
+      "- Regenerate: `node scripts/generate.mjs all`",
+    ],
+    contribute: "## Contribute",
+    contributeBody: [
+      "Health data is machine-generated and cannot be edited by hand. But pull requests are very welcome for:",
+      "",
+      "- adding a missing library (it will be audited automatically on the next refresh)",
+      "- improving descriptions",
+      "- documenting a successor for a graveyard entry",
+      "- confirming or correcting a New Architecture badge (with a link as evidence)",
+    ],
+    inspiration: "## Inspiration",
+    inspirationBody: 'This index started life as a full audit of <a href="https://github.com/jondot/awesome-react-native" target="_blank" rel="noopener">jondot/awesome-react-native</a> — the list that catalogued the ecosystem for years. Thanks to its maintainers for the foundation; everything since the 2021 snapshot is re-measured, re-classified, and continuously refreshed here.',
+  },
+  zh: {
+    file: "README.zh-CN.md",
+    switcher: "**语言：[English](./README.md) | 简体中文**",
+    intro: "**机器审计的 React Native 生态索引**。每次审计都会对 GitHub 和 npm 重新核验所有库：维护状态靠测量，不靠自称；已死的库会被移入[墓地](#-墓地)，并尽可能标注继任者。",
+    noPaid: "本索引中没有任何徽章是付费获得、申请获得或人工覆盖的。",
+    stats: (d) => `> **最近审计：** ${d.date} · **${d.total} 个库** · ✅ ${d.active} 活跃 · 🟡 ${d.stale} 老化 · 💀 ${d.dead} 已死/删除 · ✨ ${d.arch} 个确认支持新架构`,
+    legendTitle: "| 徽章 | 含义 |",
+    legend: [
+      "| ✅ 活跃 | 最近 12 个月内有提交 |",
+      "| 🟡 老化 | 1–3 年无提交——谨慎使用 |",
+      "| 💀 已死 | 已归档、已删除或沉默超过 3 年——见[墓地](#-墓地) |",
+      "| ✨ 新架构 | 已确认支持 React Native 新架构（Fabric / TurboModules） |",
+    ],
+    categories: "## 分类",
+    columns: "| 库 | 状态 | Stars | npm/周 | 最近推送 | 备注 |",
+    builtByUs: "## 🛠 我们自建",
+    builtByUsBody: [
+      "本索引由一群重度 React Native 用户维护，我们同时也**自建第一方库来填补审计暴露的空白**——高流量死库、被抛弃的基础设施、缺失的新架构支持。我们的项目会始终在这里披露、明确标注，且永远不会混入上方的审计分类。",
+      "",
+      "> 尚未发布——第一个库正在开发中。**Watch 本仓库**以获得通知。",
+    ],
+    graveyard: "## 💀 墓地",
+    graveyardIntro: "已死、已归档或已删除的流行库。**请勿在新项目中采用。** 如有继任者，会一并标注。",
+    graveyardWarning: (dl) => `> ⚠️ 审计发现，每周仍有 **约 ${dl} 次 npm 下载**流向以下已死库。每一次安装都是未来的迁移账单。`,
+    graveyardColumns: "| 库 | 结局 | Stars | npm/周 | 最近推送 | 继任者 | 备注 |",
+    fate: { deleted: "已删除", archived: "已归档", abandoned: "已废弃" },
+    method: "## 方法",
+    methodBody: (n) => [
+      `- 索引跟踪 React Native 生态中的 ${n} 个仓库；新库通过审计和 PR 持续加入。`,
+      "- 每次刷新都会通过 GitHub API 重新核验每个仓库（存在性、最近推送、stars、归档状态），并查询知名包的 npm 周下载量。",
+      "- 健康分级：活跃 ≤12 个月，老化 12–36 个月，已死 >36 个月 / 已归档 / 已删除。已死条目离开原分类，进入墓地。",
+      "- 新架构徽章仅根据已确认来源策展；未标注表示“未验证”，绝不表示“不兼容”。",
+      "- 重新生成：`node scripts/generate.mjs all`",
+    ],
+    contribute: "## 参与贡献",
+    contributeBody: [
+      "健康数据由机器生成，不能手工编辑。但非常欢迎以下类型的 PR：",
+      "",
+      "- 补充缺失的库（下次刷新时会自动审计）",
+      "- 改进描述",
+      "- 为墓地条目记录继任者",
+      "- 确认或纠正新架构徽章（附证据链接）",
+    ],
+    inspiration: "## 灵感来源",
+    inspirationBody: '本索引起源于对 <a href="https://github.com/jondot/awesome-react-native" target="_blank" rel="noopener">jondot/awesome-react-native</a> 的一次完整审计——这份列表曾为生态编目多年。感谢维护者打下的基础；2021 年快照之后的一切，在这里被重新测量、重新分级并持续刷新。',
+  },
+};
+
+function renderDoc(db, locale) {
+  const t = STRINGS[locale];
   const entries = db.entries.map((e) => ({ ...e, health: classify(e) }));
   const counts = { active: 0, stale: 0, dead: 0 };
   for (const e of entries) counts[e.health]++;
@@ -152,22 +260,21 @@ function render(db) {
   const out = [];
   out.push(`# Awesome Native React`);
   out.push("");
-  out.push(`The **machine-audited React Native ecosystem index**. Every library is re-verified against GitHub and npm on each audit: maintenance health is measured, not claimed, and dead libraries are moved to the [graveyard](#-graveyard) with a successor when one exists.`);
+  out.push(t.switcher);
   out.push("");
-  out.push(`No badge in this index is paid, requested, or manually overridden.`);
+  out.push(t.intro);
   out.push("");
-  out.push(`> **Last audit:** ${db.updatedAt.slice(0, 10)} · **${entries.length} libraries** · ✅ ${counts.active} active · 🟡 ${counts.stale} stale · 💀 ${counts.dead} dead/deleted · ✨ ${newArchCount} confirmed New Architecture`);
+  out.push(t.noPaid);
   out.push("");
-  out.push(`| Badge | Meaning |`);
+  out.push(t.stats({ date: db.updatedAt.slice(0, 10), total: entries.length, active: counts.active, stale: counts.stale, dead: counts.dead, arch: newArchCount }));
+  out.push("");
+  out.push(t.legendTitle);
   out.push(`| --- | --- |`);
-  out.push(`| ✅ Active | pushed within the last 12 months |`);
-  out.push(`| 🟡 Stale | 1–3 years without a push — use with care |`);
-  out.push(`| 💀 Dead | archived, deleted, or >3 years silent — see the [graveyard](#-graveyard) |`);
-  out.push(`| ✨ New Arch | confirmed React Native New Architecture (Fabric / TurboModules) support |`);
+  out.push(...t.legend);
   out.push("");
   out.push(`---`);
   out.push("");
-  out.push(`## Categories`);
+  out.push(t.categories);
   out.push("");
 
   const byCat = new Map();
@@ -189,7 +296,7 @@ function render(db) {
     });
     out.push(`### ${c}`);
     out.push("");
-    out.push(`| Library | Health | Stars | npm/wk | Last push | Notes |`);
+    out.push(t.columns);
     out.push(`| --- | --- | ---: | ---: | --- | --- |`);
     for (const e of list) {
       const icon = e.health === "active" ? "✅" : "🟡";
@@ -197,71 +304,70 @@ function render(db) {
       const name = (e.listed.split("/")[1] || e.listed);
       const dl = typeof e.npmWk === "number" ? fmtDl(e.npmWk).replace("/wk", "") : "";
       const notes = cell(e.notes || e.desc);
-      out.push(`| [${cell(name)}](https://github.com/${e.repo || e.listed}) | ${icon}${arch} | ${fmtStars(e.stars || 0)} | ${dl} | ${relTime(e.pushedAt)} | ${notes} |`);
+      out.push(`| ${libLink(e.repo || e.listed, name)} | ${icon}${arch} | ${fmtStars(e.stars || 0)} | ${dl} | ${relTimeLocale(e.pushedAt, locale)} | ${notes} |`);
     }
     out.push("");
   }
 
   out.push(`---`);
   out.push("");
-  out.push(`## 🛠 Built by us`);
+  out.push(t.builtByUs);
   out.push("");
-  out.push(`This index is maintained by a team of heavy React Native users that also builds **first-party libraries to fill the gaps the audit exposes** — dead high-traffic packages, abandoned infrastructure, and missing New Architecture support. Our projects will always be disclosed here, clearly labeled, and never blended into the audited categories above.`);
-  out.push("");
-  out.push(`> Nothing published yet — the first library is in development. **Watch this repository** to be notified.`);
+  out.push(...t.builtByUsBody);
   out.push("");
   out.push(`---`);
   out.push("");
-  out.push(`## 💀 Graveyard`);
+  out.push(t.graveyard);
   out.push("");
-  out.push(`Popular libraries that are dead, archived, or deleted. **Do not adopt them for new projects.** A successor is listed when one exists.`);
+  out.push(t.graveyardIntro);
   out.push("");
   if (deadDownloads > 0) {
-    out.push(`> ⚠️ The audit measured **≈${fmtDl(deadDownloads).replace("/wk", "")} weekly npm downloads** still flowing into dead libraries below. Every one of those installs is a future migration bill.`);
+    out.push(t.graveyardWarning(fmtDl(deadDownloads).replace("/wk", "")));
     out.push("");
   }
-  out.push(`| Library | Fate | Stars | npm/wk | Last push | Successor | Notes |`);
+  out.push(t.graveyardColumns);
   out.push(`| --- | --- | ---: | ---: | --- | --- | --- |`);
   for (const e of graves) {
     const name = e.listed.split("/")[1] || e.listed;
-    const fate = e.deleted ? "deleted" : e.archived ? "archived" : "abandoned";
+    const fateKey = e.deleted ? "deleted" : e.archived ? "archived" : "abandoned";
     const dl = typeof e.npmWk === "number" ? fmtDl(e.npmWk).replace("/wk", "") : "";
-    const lastPush = e.deleted || !e.pushedAt ? "—" : relTime(e.pushedAt);
+    const lastPush = e.deleted || !e.pushedAt ? "—" : relTimeLocale(e.pushedAt, locale);
     let successor = "—";
     if (e.successor) {
-      successor = `[${cell(e.successor.split("/")[1])}](https://github.com/${e.successor})`;
+      successor = libLink(e.successor, e.successor.split("/")[1]);
       if (e.successorNote) successor += ` (${cell(e.successorNote)})`;
     }
-    out.push(`| **${cell(name)}** | 💀 ${fate} | ${fmtStars(e.stars || 0)} | ${dl} | ${lastPush} | ${successor} | ${cell(e.desc)} |`);
+    out.push(`| **${cell(name)}** | 💀 ${t.fate[fateKey]} | ${fmtStars(e.stars || 0)} | ${dl} | ${lastPush} | ${successor} | ${cell(e.desc)} |`);
   }
   out.push("");
   out.push(`---`);
   out.push("");
-  out.push(`## Method`);
+  out.push(t.method);
   out.push("");
-  out.push(`- The index tracks ${entries.length} repositories across the React Native ecosystem; new libraries are added continuously by audit and by pull request.`);
-  out.push(`- Each refresh re-checks every repository via the GitHub API (existence, last push, stars, archived) and npm weekly downloads for notable packages.`);
-  out.push(`- Health classes: active ≤12 months, stale 12–36 months, dead >36 months / archived / deleted. Dead entries leave their category and appear in the graveyard.`);
-  out.push(`- New Architecture badges are curated from confirmed sources only; an unlisted badge means "unverified", never "incompatible".`);
-  out.push(`- Regenerate: \`node scripts/generate.mjs all\``);
+  out.push(...t.methodBody(entries.length));
   out.push("");
-  out.push(`## Contribute`);
+  out.push(t.contribute);
   out.push("");
-  out.push(`Health data is machine-generated and cannot be edited by hand. But pull requests are very welcome for:`);
-  out.push("");
-  out.push(`- adding a missing library (it will be audited automatically on the next refresh)`);
-  out.push(`- improving descriptions`);
-  out.push(`- documenting a successor for a graveyard entry`);
-  out.push(`- confirming or correcting a New Architecture badge (with a link as evidence)`);
+  out.push(...t.contributeBody);
   out.push("");
   out.push(`---`);
   out.push("");
-  out.push(`## Inspiration`);
+  out.push(t.inspiration);
   out.push("");
-  out.push(`This index started life as a full audit of [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) — the list that catalogued the ecosystem for years. Thanks to its maintainers for the foundation; everything since the 2021 snapshot is re-measured, re-classified, and continuously refreshed here.`);
+  out.push(t.inspirationBody);
   out.push("");
-  fs.writeFileSync(readmePath, out.join("\n"));
-  console.error(`README.md rendered: ${entries.length} entries (${counts.active}/${counts.stale}/${counts.dead}, ${newArchCount} new-arch)`);
+  return out.join("\n");
+}
+
+function render(db) {
+  const entries = db.entries;
+  for (const locale of ["en", "zh"]) {
+    const t = STRINGS[locale];
+    fs.writeFileSync(path.join(root, t.file), renderDoc(db, locale));
+  }
+  const counts = { active: 0, stale: 0, dead: 0 };
+  for (const e of entries) counts[classify(e)]++;
+  console.error(`README.md + README.zh-CN.md rendered: ${entries.length} entries (${counts.active}/${counts.stale}/${counts.dead})`);
 }
 
 const cmd = process.argv[2] || "all";
