@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-09-09T19:17:40.747Z",
+ "updatedAt": "2026-09-11T19:10:48.530Z",
  "source": "jondot/awesome-react-native (frozen 2021-04) + 2026 audit additions",
  "entries": [
   {
@@ -61,10 +61,10 @@
    "category": "Continuous Integration",
    "section": "Articles",
    "desc": "A React Native template for building solid applications 🐙, using JavaScript 💛 or Typescript 💙 (you choose).",
-   "stars": 5564,
+   "stars": 5563,
    "pushedAt": "2026-06-30T10:48:00Z",
    "archived": false,
-   "npmWk": 25,
+   "npmWk": 24,
    "topics": [
     "react-native",
     "react-native-boilerplate",
@@ -82,10 +82,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "Lottie wrapper for React Native.",
-   "stars": 17208,
-   "pushedAt": "2026-09-02T22:21:17Z",
+   "stars": 17209,
+   "pushedAt": "2026-09-10T17:29:27Z",
    "archived": false,
-   "npmWk": 968696,
+   "npmWk": 1024549,
    "topics": [
     "bodymovin",
     "animations",
@@ -120,10 +120,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "Customizable Icons for React Native with support for image source and full styling.",
-   "stars": 17918,
+   "stars": 17917,
    "pushedAt": "2026-09-07T16:25:05Z",
    "archived": false,
-   "npmWk": 553655,
+   "npmWk": 441892,
    "topics": [
     "react-native",
     "icon",
@@ -137,10 +137,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "React Native Mapview component for iOS + Android",
-   "stars": 15995,
-   "pushedAt": "2026-09-06T20:49:44Z",
+   "stars": 15998,
+   "pushedAt": "2026-09-10T07:43:16Z",
    "archived": false,
-   "npmWk": 1088431,
+   "npmWk": 887725,
    "topics": [
     "react-native",
     "maps",
@@ -156,7 +156,7 @@
    "stars": 10479,
    "pushedAt": "2026-02-01T13:04:07Z",
    "archived": false,
-   "npmWk": 38428,
+   "npmWk": 38761,
    "topics": [
     "swipe",
     "react-native",
@@ -169,10 +169,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "💬 The most complete chat UI for React Native",
-   "stars": 14445,
-   "pushedAt": "2026-09-07T07:17:35Z",
+   "stars": 14444,
+   "pushedAt": "2026-09-11T01:31:18Z",
    "archived": false,
-   "npmWk": 86845,
+   "npmWk": 68145,
    "topics": [
     "react-native",
     "chat",
@@ -188,7 +188,7 @@
    "stars": 6946,
    "pushedAt": "2024-06-23T08:18:54Z",
    "archived": false,
-   "npmWk": 2453,
+   "npmWk": 2569,
    "topics": [
     "react-native",
     "tabs",
@@ -205,7 +205,7 @@
    "stars": 8633,
    "pushedAt": "2026-03-17T06:44:06Z",
    "archived": false,
-   "npmWk": 460412,
+   "npmWk": 378641,
    "topics": [
     "react-native",
     "image-picker",
@@ -221,7 +221,7 @@
    "stars": 4813,
    "pushedAt": "2023-01-04T06:15:00Z",
    "archived": false,
-   "npmWk": 110,
+   "npmWk": 185,
    "successor": "callstack/react-native-paper",
    "topics": [
     "react-native",
@@ -237,7 +237,7 @@
    "stars": 10508,
    "pushedAt": "2024-06-25T15:50:47Z",
    "archived": false,
-   "npmWk": 80164,
+   "npmWk": 61149,
    "topics": [
     "carousel",
     "swiper",
@@ -253,10 +253,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "React Native Calendar Components 🗓️ 📆 ",
-   "stars": 10310,
+   "stars": 10309,
    "pushedAt": "2026-04-23T05:51:55Z",
    "archived": false,
-   "npmWk": 506727,
+   "npmWk": 406260,
    "topics": [
     "react-native",
     "android",
@@ -273,9 +273,9 @@
    "section": "Components",
    "desc": ":boom: React Native UI Library based on Eva Design System  :new_moon_with_face::sparkles:Dark Mode",
    "stars": 10668,
-   "pushedAt": "2026-09-09T15:16:34Z",
+   "pushedAt": "2026-09-11T16:30:59Z",
    "archived": false,
-   "npmWk": 750,
+   "npmWk": 475,
    "topics": [
     "react",
     "react-native",
@@ -289,9 +289,9 @@
    "section": "Components",
    "desc": "SVG library for React Native, React Native Web, and plain React web projects.",
    "stars": 8001,
-   "pushedAt": "2026-09-09T15:46:54Z",
+   "pushedAt": "2026-09-11T12:40:57Z",
    "archived": false,
-   "npmWk": 6692987,
+   "npmWk": 5721728,
    "topics": []
   },
   {
@@ -300,10 +300,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
-   "stars": 6350,
+   "stars": 6352,
    "pushedAt": "2026-01-21T23:31:48Z",
    "archived": false,
-   "npmWk": 192394,
+   "npmWk": 161527,
    "topics": [
     "react",
     "react-native",
@@ -321,10 +321,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "A splash screen for react-native, hide when application loaded ,it works on iOS and Android.",
-   "stars": 5658,
+   "stars": 5657,
    "pushedAt": "2024-07-30T16:31:56Z",
    "archived": false,
-   "npmWk": 55779,
+   "npmWk": 56868,
    "topics": [
     "react-native",
     "splash-screen",
@@ -344,7 +344,7 @@
    "stars": 3780,
    "pushedAt": "2023-04-19T08:31:36Z",
    "archived": false,
-   "npmWk": 971,
+   "npmWk": 776,
    "successor": "callstack/react-native-paper",
    "topics": [
     "react-native",
@@ -363,7 +363,7 @@
    "stars": 3246,
    "pushedAt": "2021-11-02T02:35:55Z",
    "archived": false,
-   "npmWk": 46,
+   "npmWk": 42,
    "topics": [
     "react-native",
     "parallax",
@@ -382,7 +382,7 @@
    "stars": 2527,
    "pushedAt": "2022-04-09T01:31:28Z",
    "archived": false,
-   "npmWk": 9839,
+   "npmWk": 7664,
    "successor": "react-navigation/react-navigation",
    "successorNote": "use drawer navigator",
    "topics": []
@@ -396,7 +396,7 @@
    "stars": 3557,
    "pushedAt": "2025-01-12T18:46:25Z",
    "archived": false,
-   "npmWk": 9819,
+   "npmWk": 11835,
    "topics": [
     "react",
     "react-native",
@@ -415,7 +415,7 @@
    "stars": 8423,
    "pushedAt": "2024-06-14T09:29:08Z",
    "archived": false,
-   "npmWk": 131326,
+   "npmWk": 98296,
    "topics": [
     "react-native",
     "image",
@@ -436,7 +436,7 @@
    "stars": 2240,
    "pushedAt": "2026-03-19T11:03:16Z",
    "archived": false,
-   "npmWk": 8574,
+   "npmWk": 9449,
    "topics": [
     "blurhash",
     "react-native",
@@ -454,10 +454,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "Material Design for React Native (Android & iOS)",
-   "stars": 14456,
-   "pushedAt": "2026-09-09T14:19:59Z",
+   "stars": 14461,
+   "pushedAt": "2026-09-11T15:07:24Z",
    "archived": false,
-   "npmWk": 320254,
+   "npmWk": 339453,
    "topics": [
     "react-native",
     "material-design",
@@ -471,10 +471,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "iOS-style swipeout buttons behind component",
-   "stars": 2609,
+   "stars": 2608,
    "pushedAt": "2020-09-16T16:57:25Z",
    "archived": true,
-   "npmWk": 22277,
+   "npmWk": 21360,
    "successor": "software-mansion/react-native-gesture-handler",
    "successorNote": "rebuild on gesture handler",
    "topics": []
@@ -488,7 +488,7 @@
    "stars": 3879,
    "pushedAt": "2026-05-09T11:42:58Z",
    "archived": false,
-   "npmWk": 500,
+   "npmWk": 344,
    "topics": [
     "react-native",
     "react-native-blur",
@@ -504,7 +504,7 @@
    "stars": 3665,
    "pushedAt": "2024-02-05T10:46:07Z",
    "archived": false,
-   "npmWk": 247948,
+   "npmWk": 206231,
    "topics": []
   },
   {
@@ -516,7 +516,7 @@
    "stars": 2979,
    "pushedAt": "2024-04-08T12:39:25Z",
    "archived": false,
-   "npmWk": 910,
+   "npmWk": 1149,
    "topics": []
   },
   {
@@ -528,7 +528,7 @@
    "stars": 2916,
    "pushedAt": "2024-12-15T09:14:54Z",
    "archived": false,
-   "npmWk": 7157,
+   "npmWk": 6508,
    "topics": []
   },
   {
@@ -540,7 +540,7 @@
    "stars": 2808,
    "pushedAt": "2021-11-08T16:18:57Z",
    "archived": false,
-   "npmWk": 131174,
+   "npmWk": 91088,
    "successorNote": "gap: react-native-image-viewing is a partial alternative",
    "topics": []
   },
@@ -553,7 +553,7 @@
    "stars": 2516,
    "pushedAt": "2023-02-26T09:04:59Z",
    "archived": false,
-   "npmWk": 5338,
+   "npmWk": 4564,
    "topics": [
     "fab",
     "react-native",
@@ -570,7 +570,7 @@
    "stars": 1912,
    "pushedAt": "2020-01-01T15:09:12Z",
    "archived": true,
-   "npmWk": 120,
+   "npmWk": 115,
    "topics": []
   },
   {
@@ -582,7 +582,7 @@
    "stars": 5653,
    "pushedAt": "2026-01-29T11:46:53Z",
    "archived": false,
-   "npmWk": 597628,
+   "npmWk": 653058,
    "topics": [
     "react-native",
     "react",
@@ -603,7 +603,7 @@
    "stars": 2055,
    "pushedAt": "2021-03-12T10:42:57Z",
    "archived": false,
-   "npmWk": 46,
+   "npmWk": 40,
    "topics": [
     "react-native",
     "react",
@@ -621,7 +621,7 @@
    "stars": 2168,
    "pushedAt": "2023-03-18T11:22:11Z",
    "archived": false,
-   "npmWk": 62,
+   "npmWk": 48,
    "topics": [
     "mapbox-gl",
     "android",
@@ -635,10 +635,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "FoldView implemented in JavaScript ⛱",
-   "stars": 1957,
+   "stars": 1956,
    "pushedAt": "2018-07-28T17:08:18Z",
    "archived": false,
-   "npmWk": 10,
+   "npmWk": 9,
    "topics": [
     "react-native"
    ]
@@ -660,10 +660,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "A collection of animated loading indicators for React Native",
-   "stars": 2433,
+   "stars": 2432,
    "pushedAt": "2024-12-15T09:17:05Z",
    "archived": false,
-   "npmWk": 14479,
+   "npmWk": 11749,
    "topics": []
   },
   {
@@ -675,7 +675,7 @@
    "stars": 5432,
    "pushedAt": "2025-03-16T06:14:10Z",
    "archived": false,
-   "npmWk": 783762,
+   "npmWk": 615071,
    "topics": [
     "react-native",
     "recyclerview",
@@ -696,7 +696,7 @@
    "stars": 2332,
    "pushedAt": "2024-11-10T05:23:08Z",
    "archived": false,
-   "npmWk": 1616,
+   "npmWk": 1905,
    "topics": []
   },
   {
@@ -708,7 +708,7 @@
    "stars": 1566,
    "pushedAt": "2020-04-24T14:19:20Z",
    "archived": false,
-   "npmWk": 21,
+   "npmWk": 27,
    "topics": [
     "chart",
     "javascript",
@@ -725,7 +725,7 @@
    "stars": 1613,
    "pushedAt": "2018-06-25T11:50:37Z",
    "archived": false,
-   "npmWk": 26,
+   "npmWk": 27,
    "topics": []
   },
   {
@@ -737,7 +737,7 @@
    "stars": 2112,
    "pushedAt": "2023-05-05T12:02:07Z",
    "archived": false,
-   "npmWk": 5303,
+   "npmWk": 4041,
    "topics": []
   },
   {
@@ -749,7 +749,7 @@
    "stars": 1405,
    "pushedAt": "2025-10-12T02:44:07Z",
    "archived": false,
-   "npmWk": 134,
+   "npmWk": 201,
    "topics": []
   },
   {
@@ -775,10 +775,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "Easy React Native Layout & Grid for the Dumb",
-   "stars": 2217,
+   "stars": 2218,
    "pushedAt": "2026-01-31T17:48:02Z",
    "archived": false,
-   "npmWk": 12267,
+   "npmWk": 10087,
    "topics": []
   },
   {
@@ -787,10 +787,10 @@
    "category": "UI",
    "section": "Components",
    "desc": "victory components for react native",
-   "stars": 1992,
+   "stars": 1991,
    "pushedAt": "2024-08-15T14:55:50Z",
    "archived": true,
-   "npmWk": 424807,
+   "npmWk": 358702,
    "topics": [
     "react-native",
     "react",
@@ -808,7 +808,7 @@
    "stars": 1757,
    "pushedAt": "2022-05-29T03:52:37Z",
    "archived": false,
-   "npmWk": 1070,
+   "npmWk": 590,
    "topics": []
   },
   {
@@ -820,7 +820,7 @@
    "stars": 2591,
    "pushedAt": "2024-08-27T20:12:04Z",
    "archived": false,
-   "npmWk": 169704,
+   "npmWk": 152622,
    "topics": [
     "react-native",
     "accordion",
@@ -837,7 +837,7 @@
    "stars": 1139,
    "pushedAt": "2018-10-01T08:50:33Z",
    "archived": false,
-   "npmWk": 1347,
+   "npmWk": 918,
    "topics": []
   },
   {
@@ -856,7 +856,7 @@
    "stars": 1406,
    "pushedAt": "2022-01-24T11:08:05Z",
    "archived": false,
-   "npmWk": 119,
+   "npmWk": 118,
    "topics": []
   },
   {
@@ -875,7 +875,7 @@
     "helper",
     "clean-code"
    ],
-   "npmWk": 2617
+   "npmWk": 3825
   },
   {
    "listed": "appintheair/react-native-looped-carousel",
@@ -891,7 +891,7 @@
     "carousel",
     "react-native"
    ],
-   "npmWk": 172
+   "npmWk": 129
   },
   {
    "listed": "bgryszko/react-native-circular-progress",
@@ -909,7 +909,7 @@
     "animation",
     "progress"
    ],
-   "npmWk": 144333
+   "npmWk": 108015
   },
   {
    "listed": "jacklam718/react-native-popup-dialog",
@@ -917,7 +917,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "A react native modals library. Swipeable. Highly customizable. Support multi modals & Support custom animation. For IOS & Android.",
-   "stars": 2207,
+   "stars": 2205,
    "pushedAt": "2024-06-19T12:57:31Z",
    "archived": false,
    "topics": [
@@ -929,7 +929,7 @@
     "javascript",
     "es6"
    ],
-   "npmWk": 2141
+   "npmWk": 1629
   },
   {
    "listed": "bolan9999/react-native-largelist",
@@ -947,7 +947,7 @@
     "flatlist",
     "high-performance-list"
    ],
-   "npmWk": 184
+   "npmWk": 173
   },
   {
    "listed": "rauliyohmc/react-native-offline",
@@ -965,7 +965,7 @@
     "offline",
     "reactnative"
    ],
-   "npmWk": 11569
+   "npmWk": 7544
   },
   {
    "listed": "magicismight/react-native-root-toast",
@@ -977,7 +977,7 @@
    "pushedAt": "2025-11-07T00:15:40Z",
    "archived": false,
    "topics": [],
-   "npmWk": 51712
+   "npmWk": 37386
   },
   {
    "listed": "testshallpass/react-native-dropdownalert",
@@ -994,7 +994,7 @@
     "alert",
     "notification"
    ],
-   "npmWk": 16947
+   "npmWk": 11345
   },
   {
    "listed": "niftylettuce/react-native-loading-spinner-overlay",
@@ -1015,7 +1015,7 @@
     "portal",
     "android"
    ],
-   "npmWk": 21056
+   "npmWk": 14214
   },
   {
    "listed": "meteor-factory/react-native-tinder-swipe-cards",
@@ -1040,7 +1040,7 @@
    "topics": [
     "react-native"
    ],
-   "npmWk": 12811
+   "npmWk": 8887
   },
   {
    "listed": "capitalone/react-native-pathjs-charts",
@@ -1061,7 +1061,7 @@
     "react-native-svg",
     "cross-platform"
    ],
-   "npmWk": 229
+   "npmWk": 61
   },
   {
    "listed": "lucasferreira/react-native-flash-message",
@@ -1078,7 +1078,7 @@
     "javascript",
     "component"
    ],
-   "npmWk": 64708
+   "npmWk": 50792
   },
   {
    "listed": "JesperLekland/react-native-svg-charts",
@@ -1098,7 +1098,7 @@
     "svg",
     "react-native-svg"
    ],
-   "npmWk": 68317
+   "npmWk": 50101
   },
   {
    "listed": "brh55/react-native-masonry",
@@ -1118,7 +1118,7 @@
     "masonry",
     "pinterest"
    ],
-   "npmWk": 135
+   "npmWk": 202
   },
   {
    "listed": "sbycrosz/react-native-credit-card-input",
@@ -1126,7 +1126,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "Easy, cross-platform credit-card input for your React Native Project! Start accepting payment 💰 in your app today!",
-   "stars": 1508,
+   "stars": 1507,
    "pushedAt": "2025-11-10T09:22:25Z",
    "archived": false,
    "topics": [
@@ -1137,7 +1137,7 @@
     "ios",
     "android"
    ],
-   "npmWk": 4219
+   "npmWk": 3581
   },
   {
    "listed": "mfrachet/rn-placeholder",
@@ -1154,7 +1154,7 @@
     "ux",
     "placeholder"
    ],
-   "npmWk": 23974
+   "npmWk": 13855
   },
   {
    "listed": "mfrachet/action-sheet-rn",
@@ -1259,7 +1259,7 @@
    "pushedAt": "2023-04-16T13:04:33Z",
    "archived": false,
    "topics": [],
-   "npmWk": 1223
+   "npmWk": 280
   },
   {
    "listed": "thegamenicorus/react-native-timeline-listview",
@@ -1446,7 +1446,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "Parse text and make them into multiple React Native Text elements",
-   "stars": 1249,
+   "stars": 1248,
    "pushedAt": "2023-06-09T06:21:16Z",
    "archived": false,
    "topics": [
@@ -1461,7 +1461,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "A simple react-native implementation of step indicator widget compatible with the ViewPager and ListView.",
-   "stars": 1457,
+   "stars": 1458,
    "pushedAt": "2023-02-17T22:43:26Z",
    "archived": false,
    "topics": [
@@ -1479,7 +1479,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "A <Popover /> component for react-native",
-   "stars": 671,
+   "stars": 670,
    "pushedAt": "2019-04-23T22:42:52Z",
    "archived": false,
    "topics": []
@@ -1920,7 +1920,7 @@
     "share",
     "animated"
    ],
-   "npmWk": 644
+   "npmWk": 404
   },
   {
    "listed": "l-urence/react-native-autocomplete-input",
@@ -1929,7 +1929,7 @@
    "section": "Components",
    "desc": "Pure javascript autocomplete input for react-native",
    "stars": 870,
-   "pushedAt": "2026-09-03T00:13:52Z",
+   "pushedAt": "2026-09-10T19:12:46Z",
    "archived": false,
    "topics": [
     "autocomplete",
@@ -2840,7 +2840,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "a universal switch for android and iOS",
-   "stars": 277,
+   "stars": 278,
    "pushedAt": "2024-05-30T09:14:51Z",
    "archived": false,
    "topics": []
@@ -3035,7 +3035,7 @@
    "section": "Components",
    "desc": "🗺 Open the map app of the user's choice.",
    "stars": 821,
-   "pushedAt": "2026-09-09T01:52:19Z",
+   "pushedAt": "2026-09-11T01:12:11Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -3064,7 +3064,7 @@
    "section": "Components",
    "desc": "React Native Floating Labels Library",
    "stars": 164,
-   "pushedAt": "2026-09-07T07:17:25Z",
+   "pushedAt": "2026-09-10T21:50:27Z",
    "archived": false,
    "topics": []
   },
@@ -3603,7 +3603,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "A cross-platform bridge that allows you to enable and disable the screen idle timer in your React Native app",
-   "stars": 220,
+   "stars": 221,
    "pushedAt": "2025-12-04T14:19:38Z",
    "archived": false,
    "topics": []
@@ -3782,7 +3782,7 @@
    "section": "Components",
    "desc": "📆 React Native Calendar",
    "stars": 535,
-   "pushedAt": "2026-09-09T16:02:19Z",
+   "pushedAt": "2026-09-10T20:03:28Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -4027,7 +4027,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "☑️ A customiseable FlatList that allows you to select multiple rows",
-   "stars": 189,
+   "stars": 190,
    "pushedAt": "2023-11-24T10:02:24Z",
    "archived": false,
    "topics": [
@@ -4289,7 +4289,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "React Native Date Picker is datetime picker for Android and iOS. It includes date, time and datetime picker modes. The datepicker is customizable and is supporting different languages. It's written with native code to achieve the best possible look, feel and performance.",
-   "stars": 2505,
+   "stars": 2506,
    "pushedAt": "2025-06-05T18:28:03Z",
    "archived": false,
    "topics": [
@@ -4301,7 +4301,8 @@
     "date-time-picker",
     "react-native-date-time-picker",
     "timepicker"
-   ]
+   ],
+   "npmWk": 205514
   },
   {
    "listed": "anarchicknight/react-native-message-composer",
@@ -5250,7 +5251,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "Fast and simple in-app notifications for React Native",
-   "stars": 1438,
+   "stars": 1436,
    "pushedAt": "2025-03-17T00:31:09Z",
    "archived": false,
    "topics": [
@@ -5756,7 +5757,7 @@
    "category": "UI",
    "section": "Components",
    "desc": "Staggered Or Masonary List View For React Native Written in pure js  ",
-   "stars": 27,
+   "stars": 28,
    "pushedAt": "2026-09-09T09:18:37Z",
    "archived": false,
    "topics": [
@@ -5850,7 +5851,7 @@
    "section": "Components",
    "desc": "Import SVG files in your React Native project the same way that you would in a Web application.",
    "stars": 1736,
-   "pushedAt": "2026-09-06T23:55:37Z",
+   "pushedAt": "2026-09-10T05:56:04Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -6395,7 +6396,7 @@
    "category": "Navigation",
    "section": "Components",
    "desc": "Routing and navigation for React Native and Web apps",
-   "stars": 24502,
+   "stars": 24500,
    "pushedAt": "2026-09-05T21:32:00Z",
    "archived": false,
    "topics": [
@@ -6411,7 +6412,7 @@
    "category": "Navigation",
    "section": "Components",
    "desc": "A complete native navigation solution for React Native",
-   "stars": 13175,
+   "stars": 13176,
    "pushedAt": "2026-09-09T10:34:18Z",
    "archived": false,
    "topics": [
@@ -6764,7 +6765,7 @@
    "category": "Navigation",
    "section": "Components",
    "desc": "Staggered Or Masonary List View For React Native Written in pure js  ",
-   "stars": 27,
+   "stars": 28,
    "pushedAt": "2026-09-09T09:18:37Z",
    "archived": false,
    "topics": [
@@ -6894,8 +6895,8 @@
    "category": "Navigation",
    "section": "Components",
    "desc": "A framework for building native applications using React",
-   "stars": 126539,
-   "pushedAt": "2026-09-09T17:27:18Z",
+   "stars": 126561,
+   "pushedAt": "2026-09-11T16:54:46Z",
    "archived": false,
    "topics": [
     "android",
@@ -7931,7 +7932,7 @@
    "category": "Forms",
    "section": "Components",
    "desc": "Build forms in React, without the tears 😭 ",
-   "stars": 34320,
+   "stars": 34318,
    "pushedAt": "2025-11-10T17:02:06Z",
    "archived": false,
    "topics": [
@@ -7951,8 +7952,8 @@
    "category": "Forms",
    "section": "Components",
    "desc": "📋 React Hooks for form state management and validation (Web + React Native)",
-   "stars": 44850,
-   "pushedAt": "2026-09-09T09:42:51Z",
+   "stars": 44852,
+   "pushedAt": "2026-09-11T10:03:20Z",
    "archived": false,
    "topics": [
     "typescript",
@@ -8158,7 +8159,7 @@
    "category": "Geolocation",
    "section": "Components",
    "desc": "Sophisticated, battery-conscious background-geolocation with motion-detection",
-   "stars": 2923,
+   "stars": 2924,
    "pushedAt": "2026-09-07T15:37:54Z",
    "archived": false,
    "topics": [
@@ -8291,7 +8292,7 @@
    "section": "Components",
    "desc": "🌍 A toolbox for your React Native app localization",
    "stars": 2442,
-   "pushedAt": "2026-09-07T00:27:02Z",
+   "pushedAt": "2026-09-10T13:11:50Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -8383,7 +8384,7 @@
    "section": "Components",
    "desc": "🌍 A toolbox for your React Native app localization",
    "stars": 2442,
-   "pushedAt": "2026-09-07T00:27:02Z",
+   "pushedAt": "2026-09-10T13:11:50Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -8421,7 +8422,7 @@
    "category": "Build & Development",
    "section": "Components",
    "desc": "React Native module for CodePush",
-   "stars": 9124,
+   "stars": 9123,
    "pushedAt": "2025-05-20T11:58:16Z",
    "archived": true,
    "successor": "expo/expo",
@@ -8578,7 +8579,7 @@
    "section": "Components",
    "desc": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API.",
    "stars": 41103,
-   "pushedAt": "2026-09-08T19:53:57Z",
+   "pushedAt": "2026-09-11T18:15:16Z",
    "archived": false,
    "topics": [
     "react",
@@ -8595,7 +8596,7 @@
    "category": "Styling",
    "section": "Components",
    "desc": "👩‍🎤 CSS-in-JS library designed for high performance style composition",
-   "stars": 18019,
+   "stars": 18017,
    "pushedAt": "2026-08-28T09:30:54Z",
    "archived": false,
    "topics": [
@@ -8812,8 +8813,8 @@
    "category": "System",
    "section": "Components",
    "desc": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
-   "stars": 12302,
-   "pushedAt": "2026-09-09T14:40:01Z",
+   "stars": 12303,
+   "pushedAt": "2026-09-11T14:40:53Z",
    "archived": false,
    "topics": [
     "firebase",
@@ -8832,7 +8833,7 @@
    "category": "System",
    "section": "Components",
    "desc": "React Native Local and Remote Notifications",
-   "stars": 6787,
+   "stars": 6785,
    "pushedAt": "2024-01-30T05:26:00Z",
    "archived": true,
    "topics": [
@@ -8849,7 +8850,7 @@
    "section": "Components",
    "desc": "Device Information for React Native iOS and Android",
    "stars": 6679,
-   "pushedAt": "2026-09-09T19:11:31Z",
+   "pushedAt": "2026-09-09T23:48:40Z",
    "archived": false,
    "topics": [
     "hacktoberfest",
@@ -8878,7 +8879,7 @@
    "section": "Components",
    "desc": "Bring some 12 factor love to your mobile apps!",
    "stars": 4956,
-   "pushedAt": "2026-09-09T00:46:28Z",
+   "pushedAt": "2026-09-10T08:23:33Z",
    "archived": false,
    "topics": []
   },
@@ -8954,7 +8955,7 @@
    "category": "System",
    "section": "Components",
    "desc": "An unified permissions API for React Native on iOS, Android and Windows.",
-   "stars": 4378,
+   "stars": 4379,
    "pushedAt": "2026-07-23T17:53:30Z",
    "archived": false,
    "topics": [
@@ -9002,7 +9003,7 @@
    "section": "Components",
    "desc": "React Native Contacts",
    "stars": 1705,
-   "pushedAt": "2026-09-03T18:01:05Z",
+   "pushedAt": "2026-09-10T05:31:00Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -9030,7 +9031,7 @@
    "section": "Components",
    "desc": "OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com",
    "stars": 1591,
-   "pushedAt": "2026-09-09T13:46:51Z",
+   "pushedAt": "2026-09-10T00:50:16Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -9052,7 +9053,8 @@
    "stars": 892,
    "pushedAt": "2021-06-09T16:30:45Z",
    "archived": false,
-   "topics": []
+   "topics": [],
+   "npmWk": 2624
   },
   {
    "listed": "bamlab/react-native-image-resizer",
@@ -9077,7 +9079,7 @@
    "category": "System",
    "section": "Components",
    "desc": "A react-native interface for Touch 3D home screen quick actions",
-   "stars": 1049,
+   "stars": 1050,
    "pushedAt": "2021-10-27T11:27:18Z",
    "archived": true,
    "topics": []
@@ -9179,7 +9181,7 @@
    "section": "Components",
    "desc": "A developer friendly approach for sensors in React Native",
    "stars": 934,
-   "pushedAt": "2026-09-09T09:53:20Z",
+   "pushedAt": "2026-09-10T23:14:58Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -10132,7 +10134,8 @@
     "face-detection",
     "rncamera",
     "camera"
-   ]
+   ],
+   "npmWk": 21253
   },
   {
    "listed": "brentvatne/react-native-video",
@@ -10140,8 +10143,8 @@
    "category": "Media",
    "section": "Components",
    "desc": "A <Video /> component for react-native",
-   "stars": 7718,
-   "pushedAt": "2026-09-01T12:30:08Z",
+   "stars": 7717,
+   "pushedAt": "2026-09-11T17:53:32Z",
    "archived": false,
    "topics": []
   },
@@ -10658,7 +10661,7 @@
    "section": "Components",
    "desc": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/",
    "stars": 23377,
-   "pushedAt": "2026-09-09T10:09:21Z",
+   "pushedAt": "2026-09-11T18:13:07Z",
    "archived": false,
    "topics": [
     "database",
@@ -10669,7 +10672,8 @@
     "pouchdb",
     "realtime-database",
     "realtime"
-   ]
+   ],
+   "npmWk": 53601
   },
   {
    "listed": "Nozbe/WatermelonDB",
@@ -10696,7 +10700,7 @@
    "category": "Storage",
    "section": "Components",
    "desc": " Realm is a mobile database: an alternative to SQLite & key-value stores",
-   "stars": 6002,
+   "stars": 6001,
    "pushedAt": "2026-09-08T19:51:48Z",
    "archived": false,
    "topics": [
@@ -10830,7 +10834,7 @@
    "section": "Components",
    "desc": "PouchDB adapter using ReactNative SQLite as its backing store",
    "stars": 165,
-   "pushedAt": "2026-09-08T14:40:50Z",
+   "pushedAt": "2026-09-10T03:01:23Z",
    "archived": false,
    "topics": [
     "pouchdb",
@@ -10932,7 +10936,7 @@
    "category": "Backend",
    "section": "Components",
    "desc": "Search UI components for React and Vue",
-   "stars": 4921,
+   "stars": 4919,
    "pushedAt": "2026-09-09T03:43:25Z",
    "archived": false,
    "topics": [
@@ -11339,7 +11343,7 @@
    "category": "Integrations",
    "section": "Components",
    "desc": "Google Sign-in for your React Native applications",
-   "stars": 3553,
+   "stars": 3554,
    "pushedAt": "2026-09-03T08:12:02Z",
    "archived": false,
    "topics": [
@@ -11367,7 +11371,7 @@
    "category": "Integrations",
    "section": "Components",
    "desc": "⚡️ Lightning-fast search for React and React Native applications, by Algolia.",
-   "stars": 1965,
+   "stars": 1964,
    "pushedAt": "2022-12-30T12:33:24Z",
    "archived": true,
    "topics": [
@@ -12162,8 +12166,8 @@
    "category": "Animation",
    "section": "Components",
    "desc": "React Native's Animated library reimplemented",
-   "stars": 10985,
-   "pushedAt": "2026-09-09T15:31:11Z",
+   "stars": 10991,
+   "pushedAt": "2026-09-11T16:50:39Z",
    "archived": false,
    "topics": [
     "animation",
@@ -12358,8 +12362,8 @@
    "category": "Other Platforms",
    "section": "Components",
    "desc": "A framework for building native Windows apps with React.",
-   "stars": 17340,
-   "pushedAt": "2026-09-09T16:37:16Z",
+   "stars": 17343,
+   "pushedAt": "2026-09-11T12:21:18Z",
    "archived": false,
    "topics": [
     "uwp",
@@ -12491,7 +12495,7 @@
    "category": "Utilities",
    "section": "Utilities",
    "desc": "Rename react-native app with just one command",
-   "stars": 2777,
+   "stars": 2778,
    "pushedAt": "2026-08-04T03:09:16Z",
    "archived": false,
    "topics": [
@@ -12728,7 +12732,7 @@
    "category": "Utilities",
    "section": "Utilities",
    "desc": "SimpleLocalize CLI is a developer-friendly command-line tool for uploading and downloading translation files ",
-   "stars": 78,
+   "stars": 79,
    "pushedAt": "2026-08-08T07:01:43Z",
    "archived": false,
    "topics": [
@@ -12744,7 +12748,7 @@
    "category": "Seeds",
    "section": "Seeds",
    "desc": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting.",
-   "stars": 19937,
+   "stars": 19940,
    "pushedAt": "2026-06-07T01:18:58Z",
    "archived": false,
    "topics": [
@@ -12798,7 +12802,8 @@
     "bitrise",
     "eslint",
     "parse-server"
-   ]
+   ],
+   "npmWk": 64
   },
   {
    "listed": "start-react/native-starter-kit",
@@ -12890,7 +12895,8 @@
     "react-native-template",
     "redux",
     "expo"
-   ]
+   ],
+   "npmWk": 16
   },
   {
    "listed": "mrpatiwi/ReactNativeTS",
@@ -13308,7 +13314,7 @@
    "category": "Libraries",
    "section": "Libraries",
    "desc": "Cross-Platform React Native UI Toolkit",
-   "stars": 25859,
+   "stars": 25861,
    "pushedAt": "2026-05-21T14:17:40Z",
    "archived": false,
    "successor": "react-native-elements/react-native-elements",
@@ -13330,7 +13336,7 @@
    "category": "Libraries",
    "section": "Libraries",
    "desc": "Customizable set of components for React Native applications",
-   "stars": 4977,
+   "stars": 4979,
    "pushedAt": "2026-08-21T09:18:52Z",
    "archived": false,
    "topics": [
@@ -13434,7 +13440,7 @@
    "section": "Open Source Apps",
    "desc": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.",
    "stars": 3773,
-   "pushedAt": "2026-09-09T16:41:08Z",
+   "pushedAt": "2026-09-11T18:35:37Z",
    "archived": false,
    "topics": [
     "objective-c",
@@ -13453,7 +13459,7 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "Source code of the official F8 app of 2017, powered by React Native and other Facebook open source projects.",
-   "stars": 13882,
+   "stars": 13881,
    "pushedAt": "2023-07-11T07:23:07Z",
    "archived": true,
    "topics": []
@@ -13479,7 +13485,7 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "Mobile, desktop and website Apps with the same code",
-   "stars": 5201,
+   "stars": 5202,
    "pushedAt": "2021-10-03T16:47:54Z",
    "archived": false,
    "topics": [
@@ -13499,7 +13505,7 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "GitHub in your pocket :iphone:",
-   "stars": 4767,
+   "stars": 4768,
    "pushedAt": "2024-06-24T02:05:41Z",
    "archived": false,
    "topics": [
@@ -13634,7 +13640,7 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "✨🐙 A GPL Licensed Cognitive Behavioral Therapy app for iOS and Android. Currently a teaching tool",
-   "stars": 2274,
+   "stars": 2273,
    "pushedAt": "2024-06-30T23:17:05Z",
    "archived": false,
    "topics": [
@@ -14067,8 +14073,8 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "The Secure CommsOS™ for mission-critical operations",
-   "stars": 2412,
-   "pushedAt": "2026-09-09T19:08:51Z",
+   "stars": 2413,
+   "pushedAt": "2026-09-11T19:02:18Z",
    "archived": false,
    "topics": [
     "hacktoberfest",
@@ -14130,7 +14136,7 @@
    "section": "Open Source Apps",
    "desc": "A iOS and Android client for YouTrack",
    "stars": 285,
-   "pushedAt": "2026-09-09T07:55:08Z",
+   "pushedAt": "2026-09-11T13:17:38Z",
    "archived": false,
    "topics": [
     "youtrack",
@@ -14916,8 +14922,8 @@
    "category": "Open Source Apps",
    "section": "Open Source Apps",
    "desc": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-   "stars": 56295,
-   "pushedAt": "2026-09-09T17:44:52Z",
+   "stars": 56334,
+   "pushedAt": "2026-09-11T15:00:11Z",
    "archived": false,
    "topics": [
     "react-native",
@@ -15151,7 +15157,7 @@
    "category": "Frameworks",
    "section": "Frameworks",
    "desc": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
-   "stars": 20377,
+   "stars": 20376,
    "pushedAt": "2026-01-31T17:46:33Z",
    "archived": false,
    "successor": "gluestack/gluestack-ui",
@@ -15224,7 +15230,7 @@
    "category": "Frameworks",
    "section": "Frameworks",
    "desc": "An utility style framework for React Native",
-   "stars": 268,
+   "stars": 267,
    "pushedAt": "2024-03-12T14:15:08Z",
    "archived": false,
    "topics": [
@@ -15357,8 +15363,8 @@
    "category": "UI",
    "section": "Components",
    "desc": "High-performance React Native Graphics using Skia",
-   "stars": 8551,
-   "pushedAt": "2026-09-08T19:34:32Z",
+   "stars": 8571,
+   "pushedAt": "2026-09-11T06:04:46Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15373,7 +15379,7 @@
    "category": "Storage",
    "section": "Components",
    "desc": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
-   "stars": 8497,
+   "stars": 8500,
    "pushedAt": "2026-09-03T04:42:38Z",
    "archived": false,
    "addedByAudit": true,
@@ -15394,8 +15400,8 @@
    "category": "UI",
    "section": "Components",
    "desc": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.",
-   "stars": 14183,
-   "pushedAt": "2026-09-09T18:44:10Z",
+   "stars": 14184,
+   "pushedAt": "2026-09-11T19:02:00Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15415,8 +15421,8 @@
    "category": "Build & Development",
    "section": "Components",
    "desc": "🔥 Insanely fast native C++, Swift or Kotlin modules with a statically compiled binding layer to JSI",
-   "stars": 1930,
-   "pushedAt": "2026-09-09T12:30:32Z",
+   "stars": 1932,
+   "pushedAt": "2026-09-10T21:27:46Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15436,8 +15442,8 @@
    "category": "Styling",
    "section": "Components",
    "desc": "The utility-first workflow you love from Tailwind CSS in your React Native applications.",
-   "stars": 8085,
-   "pushedAt": "2026-07-17T05:30:31Z",
+   "stars": 8087,
+   "pushedAt": "2026-09-10T23:29:52Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15457,7 +15463,7 @@
    "section": "Gestures",
    "desc": "Declarative API exposing platform native touch and gesture system to React Native.",
    "stars": 6781,
-   "pushedAt": "2026-09-09T14:48:56Z",
+   "pushedAt": "2026-09-11T11:31:10Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15472,8 +15478,8 @@
    "category": "Navigation",
    "section": "Navigation",
    "desc": "Native navigation primitives for your React Native app.",
-   "stars": 3725,
-   "pushedAt": "2026-09-09T14:47:54Z",
+   "stars": 3727,
+   "pushedAt": "2026-09-11T13:18:15Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15488,7 +15494,7 @@
    "category": "UI",
    "section": "List Views",
    "desc": "A better list for React Native",
-   "stars": 7200,
+   "stars": 7225,
    "pushedAt": "2026-09-07T08:04:46Z",
    "archived": false,
    "addedByAudit": true,
@@ -15500,7 +15506,7 @@
    "category": "UI",
    "section": "Modal & Overlays",
    "desc": "A performant interactive bottom sheet with fully configurable options 🚀",
-   "stars": 9087,
+   "stars": 9086,
    "pushedAt": "2026-05-09T18:28:02Z",
    "archived": false,
    "addedByAudit": true,
@@ -15520,7 +15526,7 @@
    "section": "Camera",
    "desc": "📸 A powerful, high-performance React Native Camera library.",
    "stars": 9615,
-   "pushedAt": "2026-08-31T14:36:09Z",
+   "pushedAt": "2026-09-10T15:44:23Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15540,7 +15546,7 @@
    "category": "UI",
    "section": "Tabs",
    "desc": "React Native wrapper for the Android ViewPager and iOS UIPageViewController.",
-   "stars": 3361,
+   "stars": 3363,
    "pushedAt": "2026-09-04T13:43:37Z",
    "archived": false,
    "addedByAudit": true,
@@ -15557,8 +15563,8 @@
    "category": "Frameworks",
    "section": "Frameworks",
    "desc": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-   "stars": 52118,
-   "pushedAt": "2026-09-09T19:06:12Z",
+   "stars": 52172,
+   "pushedAt": "2026-09-11T19:08:55Z",
    "archived": false,
    "addedByAudit": true,
    "topics": [
@@ -15578,7 +15584,7 @@
    "category": "Web",
    "section": "WebView",
    "desc": "React Native Cross-Platform WebView",
-   "stars": 7189,
+   "stars": 7192,
    "pushedAt": "2026-07-12T08:04:54Z",
    "archived": false,
    "addedByAudit": true,
@@ -15590,8 +15596,8 @@
    "category": "Storage",
    "section": "Storage",
    "desc": "An asynchronous, persistent, key-value storage system for React Native.",
-   "stars": 5072,
-   "pushedAt": "2026-09-09T17:14:05Z",
+   "stars": 5074,
+   "pushedAt": "2026-09-10T11:54:06Z",
    "archived": false,
    "addedByAudit": true,
    "topics": []
@@ -15670,7 +15676,7 @@
    "category": "UI",
    "section": "Layout",
    "desc": "A flexible way to handle safe area insets in JS. Also works on Android and Web! ",
-   "stars": 2758,
+   "stars": 2760,
    "pushedAt": "2026-09-08T19:04:00Z",
    "archived": false,
    "addedByAudit": true,
