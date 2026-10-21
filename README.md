@@ -6,7 +6,7 @@ The **machine-audited React Native ecosystem index**. Every library is re-verifi
 
 No badge in this index is paid, requested, or manually overridden.
 
-> **Last audit:** 2026-10-19 · **1111 libraries** · ✅ 168 active · 🟡 99 stale · 💀 844 dead/deleted · ✨ 17 confirmed New Architecture
+> **Last audit:** 2026-10-21 · **1111 libraries** · ✅ 168 active · 🟡 98 stale · 💀 845 dead/deleted · ✨ 17 confirmed New Architecture
 
 | Badge | Meaning |
 | --- | --- |
@@ -25,77 +25,77 @@ No badge in this index is paid, requested, or manually overridden.
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/oblador/react-native-vector-icons" target="_blank" rel="noopener">react-native-vector-icons</a> | ✅ | 18k | 309k | 0d ago | Customizable Icons for React Native with support for image source and full styling. |
-| <a href="https://github.com/lottie-react-native/lottie-react-native" target="_blank" rel="noopener">lottie-react-native</a> | ✅ | 17k | 815k | 5d ago | Lottie wrapper for React Native. |
-| <a href="https://github.com/react-native-maps/react-native-maps" target="_blank" rel="noopener">react-native-maps</a> | ✅ | 16k | 754k | 0d ago | React Native Mapview component for iOS + Android |
-| <a href="https://github.com/callstack/react-native-paper" target="_blank" rel="noopener">react-native-paper</a> | ✅ | 14k | 259k | 7d ago | Material Design for React Native (Android & iOS) |
-| <a href="https://github.com/FaridSafi/react-native-gifted-chat" target="_blank" rel="noopener">react-native-gifted-chat</a> | ✅ | 14k | 45k | 0d ago | 💬 The most complete chat UI for React Native |
+| <a href="https://github.com/oblador/react-native-vector-icons" target="_blank" rel="noopener">react-native-vector-icons</a> | ✅ | 18k | 309k | 2d ago | Customizable Icons for React Native with support for image source and full styling. |
+| <a href="https://github.com/lottie-react-native/lottie-react-native" target="_blank" rel="noopener">lottie-react-native</a> | ✅ | 17k | 815k | 1d ago | Lottie wrapper for React Native. |
+| <a href="https://github.com/react-native-maps/react-native-maps" target="_blank" rel="noopener">react-native-maps</a> | ✅ | 16k | 754k | 2d ago | React Native Mapview component for iOS + Android |
+| <a href="https://github.com/callstack/react-native-paper" target="_blank" rel="noopener">react-native-paper</a> | ✅ | 14k | 259k | 0d ago | Material Design for React Native (Android & iOS) |
+| <a href="https://github.com/FaridSafi/react-native-gifted-chat" target="_blank" rel="noopener">react-native-gifted-chat</a> | ✅ | 14k | 45k | 2d ago | 💬 The most complete chat UI for React Native |
 | <a href="https://github.com/tamagui/tamagui" target="_blank" rel="noopener">tamagui</a> | ✅ | 14k |  | 0d ago | Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler. |
-| <a href="https://github.com/akveo/react-native-ui-kitten" target="_blank" rel="noopener">react-native-ui-kitten</a> | ✅ | 11k | 378 | 13d ago | React Native UI library built on the Eva Design System: 30+ themeable, accessible components for iOS, Android and web. TypeScript, React 19 / RN 0.81, Eva and Material themes with runtime light/dark switching, on-demand style compilation. |
+| <a href="https://github.com/akveo/react-native-ui-kitten" target="_blank" rel="noopener">react-native-ui-kitten</a> | ✅ | 11k | 378 | 15d ago | React Native UI library built on the Eva Design System: 30+ themeable, accessible components for iOS, Android and web. TypeScript, React 19 / RN 0.81, Eva and Material themes with runtime light/dark switching, on-demand style compilation. |
 | <a href="https://github.com/leecade/react-native-swiper" target="_blank" rel="noopener">react-native-swiper</a> | ✅ | 10k | 24k | 9mo ago | The best Swiper component for React Native. |
-| <a href="https://github.com/wix/react-native-calendars" target="_blank" rel="noopener">react-native-calendars</a> | ✅ | 10k | 279k | 2d ago | React Native Calendar Components 🗓️ 📆  |
-| <a href="https://github.com/gorhom/react-native-bottom-sheet" target="_blank" rel="noopener">react-native-bottom-sheet</a> | ✅ | 9.1k | 269 | 5mo ago | A performant interactive bottom sheet with fully configurable options 🚀 |
+| <a href="https://github.com/wix/react-native-calendars" target="_blank" rel="noopener">react-native-calendars</a> | ✅ | 10k | 279k | 4d ago | React Native Calendar Components 🗓️ 📆  |
+| <a href="https://github.com/gorhom/react-native-bottom-sheet" target="_blank" rel="noopener">react-native-bottom-sheet</a> | ✅ | 9.1k | 269 | 6mo ago | A performant interactive bottom sheet with fully configurable options 🚀 |
 | <a href="https://github.com/wcandillon/react-native-skia" target="_blank" rel="noopener">react-native-skia</a> | ✅ | 8.7k |  | 0d ago | High-performance React Native Graphics using Skia |
-| <a href="https://github.com/react-native-image-picker/react-native-image-picker" target="_blank" rel="noopener">react-native-image-picker</a> | ✅ | 8.6k | 253k | 6d ago | :sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera. |
+| <a href="https://github.com/react-native-image-picker/react-native-image-picker" target="_blank" rel="noopener">react-native-image-picker</a> | ✅ | 8.6k | 253k | 8d ago | :sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera. |
 | <a href="https://github.com/DylanVann/react-native-fast-image" target="_blank" rel="noopener">react-native-fast-image</a> | ✅ | 8.4k | 71k | 0d ago | Performant React Native image component. |
-| <a href="https://github.com/software-mansion/react-native-svg" target="_blank" rel="noopener">react-native-svg</a> | ✅ ✨ | 8.0k | 5391k | 4d ago | SVG library for React Native, React Native Web, and plain React web projects. |
-| <a href="https://github.com/Shopify/flash-list" target="_blank" rel="noopener">flash-list</a> | ✅ ✨ | 7.2k |  | 18d ago | A better list for React Native |
+| <a href="https://github.com/software-mansion/react-native-svg" target="_blank" rel="noopener">react-native-svg</a> | ✅ ✨ | 8.0k | 5391k | 6d ago | SVG library for React Native, React Native Web, and plain React web projects. |
+| <a href="https://github.com/Shopify/flash-list" target="_blank" rel="noopener">flash-list</a> | ✅ ✨ | 7.2k |  | 20d ago | A better list for React Native |
 | <a href="https://github.com/software-mansion/react-native-gesture-handler" target="_blank" rel="noopener">react-native-gesture-handler</a> | ✅ ✨ | 6.8k |  | 0d ago | Declarative API exposing platform native touch and gesture system to React Native. |
-| <a href="https://github.com/ivpusic/react-native-image-crop-picker" target="_blank" rel="noopener">react-native-image-crop-picker</a> | ✅ | 6.4k | 131k | 4d ago | iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping |
+| <a href="https://github.com/ivpusic/react-native-image-crop-picker" target="_blank" rel="noopener">react-native-image-crop-picker</a> | ✅ | 6.4k | 131k | 5d ago | iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping |
 | <a href="https://github.com/react-native-modal/react-native-modal" target="_blank" rel="noopener">react-native-modal</a> | ✅ | 5.6k | 341k | 9mo ago | An enhanced, animated, customizable Modal for React Native. |
-| <a href="https://github.com/margelo/react-native-blur" target="_blank" rel="noopener">react-native-blur</a> | ✅ | 3.9k | 342 | 5mo ago | React Native Blur component |
-| <a href="https://github.com/callstack/react-native-pager-view" target="_blank" rel="noopener">react-native-pager-view</a> | ✅ ✨ | 3.4k |  | 3d ago | React Native pager component for swipeable pages, built on Jetpack Compose Pager on Android and SwiftUI TabView on iOS |
-| <a href="https://github.com/galio-org/galio" target="_blank" rel="noopener">galio</a> | ✅ | 3.2k |  | 12mo ago | Galio is a beautifully designed, Free and Open Source React Native Framework |
-| <a href="https://github.com/react-native-datetimepicker/datetimepicker" target="_blank" rel="noopener">datetimepicker</a> | ✅ ✨ | 2.9k |  | 1mo ago | React Native date & time picker component for iOS, Android and Windows |
-| <a href="https://github.com/appandflow/react-native-safe-area-context" target="_blank" rel="noopener">react-native-safe-area-context</a> | ✅ ✨ | 2.8k |  | 3d ago | A flexible way to handle safe area insets in JS. Also works on Android and Web!  |
-| <a href="https://github.com/FormidableLabs/react-native-app-auth" target="_blank" rel="noopener">react-native-app-auth</a> | ✅ | 2.3k |  | 0d ago | React native bridge for AppAuth - an SDK for communicating with OAuth2 providers |
+| <a href="https://github.com/margelo/react-native-blur" target="_blank" rel="noopener">react-native-blur</a> | ✅ | 3.9k | 342 | 6mo ago | React Native Blur component |
+| <a href="https://github.com/callstack/react-native-pager-view" target="_blank" rel="noopener">react-native-pager-view</a> | ✅ ✨ | 3.4k |  | 0d ago | React Native pager component for swipeable pages, built on Jetpack Compose Pager on Android and SwiftUI TabView on iOS |
+| <a href="https://github.com/galio-org/galio" target="_blank" rel="noopener">galio</a> | ✅ | 3.2k |  | 1.0y ago | Galio is a beautifully designed, Free and Open Source React Native Framework |
+| <a href="https://github.com/react-native-datetimepicker/datetimepicker" target="_blank" rel="noopener">datetimepicker</a> | ✅ ✨ | 2.9k |  | 0d ago | React Native date & time picker component for iOS, Android and Windows |
+| <a href="https://github.com/appandflow/react-native-safe-area-context" target="_blank" rel="noopener">react-native-safe-area-context</a> | ✅ ✨ | 2.8k |  | 0d ago | A flexible way to handle safe area insets in JS. Also works on Android and Web!  |
+| <a href="https://github.com/FormidableLabs/react-native-app-auth" target="_blank" rel="noopener">react-native-app-auth</a> | ✅ | 2.3k |  | 2d ago | React native bridge for AppAuth - an SDK for communicating with OAuth2 providers |
 | <a href="https://github.com/margelo/react-native-blurhash" target="_blank" rel="noopener">react-native-blurhash</a> | ✅ | 2.2k | 7.0k | 7mo ago | 🖼️ A library to show colorful blurry placeholders while your content loads. |
 | <a href="https://github.com/GeekyAnts/react-native-easy-grid" target="_blank" rel="noopener">react-native-easy-grid</a> | ✅ | 2.2k | 8.0k | 9mo ago | Easy React Native Layout & Grid for the Dumb |
-| <a href="https://github.com/ammarahm-ed/react-native-actions-sheet" target="_blank" rel="noopener">react-native-actions-sheet</a> | ✅ | 2.2k | 104k | 1d ago | A Cross Platform(Android, iOS & Web) ActionSheet with a flexible api, native performance for react native. Create anything you want inside ActionSheet. |
+| <a href="https://github.com/ammarahm-ed/react-native-actions-sheet" target="_blank" rel="noopener">react-native-actions-sheet</a> | ✅ | 2.2k | 104k | 3d ago | A Cross Platform(Android, iOS & Web) ActionSheet with a flexible api, native performance for react native. Create anything you want inside ActionSheet. |
 | <a href="https://github.com/magicismight/react-native-root-toast" target="_blank" rel="noopener">react-native-root-toast</a> | ✅ | 2.1k | 61k | 12mo ago | react native toast like component, pure javascript solution |
-| <a href="https://github.com/testshallpass/react-native-dropdownalert" target="_blank" rel="noopener">react-native-dropdownalert</a> | ✅ | 1.9k | 14k | 4mo ago | An alert to notify users about an error or something else |
+| <a href="https://github.com/testshallpass/react-native-dropdownalert" target="_blank" rel="noopener">react-native-dropdownalert</a> | ✅ | 1.9k | 14k | 5mo ago | An alert to notify users about an error or something else |
 | <a href="https://github.com/lawnstarter/react-native-picker-select" target="_blank" rel="noopener">react-native-picker-select</a> | ✅ | 1.8k |  | 3mo ago | 🔽 A Picker component for React Native which emulates the native <select> interfaces for iOS and Android |
 | <a href="https://github.com/react-native-picker/picker" target="_blank" rel="noopener">picker</a> | ✅ ✨ | 1.8k |  | 9mo ago | Picker is a cross-platform UI component for selecting an item from a list of options. |
-| <a href="https://github.com/kristerkari/react-native-svg-transformer" target="_blank" rel="noopener">react-native-svg-transformer</a> | ✅ | 1.7k |  | 3d ago | Import SVG files in your React Native project the same way that you would in a Web application. |
+| <a href="https://github.com/kristerkari/react-native-svg-transformer" target="_blank" rel="noopener">react-native-svg-transformer</a> | ✅ | 1.7k |  | 5d ago | Import SVG files in your React Native project the same way that you would in a Web application. |
 | <a href="https://github.com/ladjs/react-native-loading-spinner-overlay" target="_blank" rel="noopener">react-native-loading-spinner-overlay</a> | ✅ | 1.6k | 16k | 11mo ago | :barber: React Native loading spinner overlay |
 | <a href="https://github.com/instea/react-native-popup-menu" target="_blank" rel="noopener">react-native-popup-menu</a> | ✅ | 1.6k | 71k | 3mo ago | Popup menu component for React Native |
-| <a href="https://github.com/sbycrosz/react-native-credit-card-input" target="_blank" rel="noopener">react-native-credit-card-input</a> | ✅ | 1.5k | 4.1k | 11mo ago | Easy, cross-platform credit-card input for your React Native Project! Start accepting payment 💰 in your app today! |
+| <a href="https://github.com/sbycrosz/react-native-credit-card-input" target="_blank" rel="noopener">react-native-credit-card-input</a> | ✅ | 1.5k | 4.1k | 12mo ago | Easy, cross-platform credit-card input for your React Native Project! Start accepting payment 💰 in your app today! |
 | <a href="https://github.com/saleel/react-native-super-grid" target="_blank" rel="noopener">react-native-super-grid</a> | ✅ | 1.5k | 44k | 11mo ago | Responsive Grid View for React Native |
 | <a href="https://github.com/rcaferati/react-native-awesome-button" target="_blank" rel="noopener">react-native-really-awesome-button</a> | ✅ | 1.3k | 404 | 2mo ago | React Native button component. Awesome Button is a 3D at 60fps, progress enabled, social ready, extendable, production ready component that renders an awesome animated set of UI buttons. 📱  |
 | <a href="https://github.com/retyui/react-native-confirmation-code-field" target="_blank" rel="noopener">react-native-confirmation-code-field</a> | ✅ | 1.2k | 355k | 7mo ago | A react-native confirmation code field compatible with iOS, Android and Web |
-| <a href="https://github.com/Expensify/react-native-qrcode-svg" target="_blank" rel="noopener">react-native-qrcode-svg</a> | ✅ | 1.2k | 1295k | 27d ago | A QR Code generator for React Native based on react-native-svg and node-qrcode. |
-| <a href="https://github.com/xcarpentier/react-native-country-picker-modal" target="_blank" rel="noopener">react-native-country-picker-modal</a> | ✅ | 1.1k | 103k | 6d ago | 🇦🇶 Country picker provides a modal allowing a user to select a country from a list. It display a flag next to each country name. |
+| <a href="https://github.com/Expensify/react-native-qrcode-svg" target="_blank" rel="noopener">react-native-qrcode-svg</a> | ✅ | 1.2k | 1295k | 0d ago | A QR Code generator for React Native based on react-native-svg and node-qrcode. |
+| <a href="https://github.com/xcarpentier/react-native-country-picker-modal" target="_blank" rel="noopener">react-native-country-picker-modal</a> | ✅ | 1.1k | 103k | 7d ago | 🇦🇶 Country picker provides a modal allowing a user to select a country from a list. It display a flag next to each country name. |
 | <a href="https://github.com/grapp-dev/stacks" target="_blank" rel="noopener">stacks</a> | ✅ | 1.0k |  | 2mo ago | A set of components for building layouts in React Native. Powered by React Native Unistyles. |
-| <a href="https://github.com/douglasjunior/react-native-keyboard-manager" target="_blank" rel="noopener">react-native-keyboard-manager</a> | ✅ | 1.0k |  | 2d ago | (DEPRECATED) ⚛ Library to prevent issues of keyboard sliding up and cover inputs on React-Native iOS projects. |
+| <a href="https://github.com/douglasjunior/react-native-keyboard-manager" target="_blank" rel="noopener">react-native-keyboard-manager</a> | ✅ | 1.0k |  | 4d ago | (DEPRECATED) ⚛ Library to prevent issues of keyboard sliding up and cover inputs on React-Native iOS projects. |
 | <a href="https://github.com/wmcmahan/react-native-calendar-events" target="_blank" rel="noopener">react-native-calendar-events</a> | ✅ | 930 | 32k | 10mo ago | 📆 React Native Module for iOS and Android Calendar Events |
-| <a href="https://github.com/byteburgers/react-native-autocomplete-input" target="_blank" rel="noopener">react-native-autocomplete-input</a> | ✅ | 871 | 16k | 1d ago | Pure javascript autocomplete input for react-native |
-| <a href="https://github.com/tschoffelen/react-native-map-link" target="_blank" rel="noopener">react-native-map-link</a> | ✅ | 823 | 74k | 0d ago | 🗺 Open the map app of the user's choice. |
-| <a href="https://github.com/dev-yakuza/react-native-image-modal" target="_blank" rel="noopener">react-native-image-modal</a> | ✅ | 700 |  | 7mo ago | the simple image modal for React Native |
-| <a href="https://github.com/jasongaare/react-native-walkthrough-tooltip" target="_blank" rel="noopener">react-native-walkthrough-tooltip</a> | ✅ | 688 |  | 11d ago | An inline wrapper for calling out React Native components via tooltip |
-| <a href="https://github.com/joshswan/react-native-autolink" target="_blank" rel="noopener">react-native-autolink</a> | ✅ | 661 |  | 15d ago | Automatic linking of URLs, phone numbers, emails, handles, and even custom patterns in text for React Native |
-| <a href="https://github.com/kristerkari/pinar" target="_blank" rel="noopener">pinar</a> | ✅ | 640 |  | 5mo ago | 🌲☀️ Customizable, lightweight React Native carousel component with accessibility support. |
+| <a href="https://github.com/byteburgers/react-native-autocomplete-input" target="_blank" rel="noopener">react-native-autocomplete-input</a> | ✅ | 871 | 16k | 3d ago | Pure javascript autocomplete input for react-native |
+| <a href="https://github.com/tschoffelen/react-native-map-link" target="_blank" rel="noopener">react-native-map-link</a> | ✅ | 823 | 74k | 2d ago | 🗺 Open the map app of the user's choice. |
+| <a href="https://github.com/dev-yakuza/react-native-image-modal" target="_blank" rel="noopener">react-native-image-modal</a> | ✅ | 700 |  | 8mo ago | the simple image modal for React Native |
+| <a href="https://github.com/jasongaare/react-native-walkthrough-tooltip" target="_blank" rel="noopener">react-native-walkthrough-tooltip</a> | ✅ | 688 |  | 13d ago | An inline wrapper for calling out React Native components via tooltip |
+| <a href="https://github.com/joshswan/react-native-autolink" target="_blank" rel="noopener">react-native-autolink</a> | ✅ | 661 |  | 17d ago | Automatic linking of URLs, phone numbers, emails, handles, and even custom patterns in text for React Native |
+| <a href="https://github.com/kristerkari/pinar" target="_blank" rel="noopener">pinar</a> | ✅ | 640 |  | 6mo ago | 🌲☀️ Customizable, lightweight React Native carousel component with accessibility support. |
 | <a href="https://github.com/kirankalyan5/react-native-segmented-control-tab" target="_blank" rel="noopener">react-native-segmented-control-tab</a> | ✅ | 618 |  | 9mo ago | react-native-segmented-control-tab(for Android/iOS) |
 | <a href="https://github.com/toystars/react-native-multiple-select" target="_blank" rel="noopener">react-native-multiple-select</a> | ✅ | 590 |  | 9mo ago | Simple multi-select component for react-native |
-| <a href="https://github.com/maggialejandro/react-native-calendario" target="_blank" rel="noopener">react-native-calendario</a> | ✅ | 535 |  | 4d ago | 📆 React Native Calendar |
-| <a href="https://github.com/douglasjunior/react-native-simple-dialogs" target="_blank" rel="noopener">react-native-simple-dialogs</a> | ✅ | 479 |  | 2d ago | ⚛ Cross-platform React Native dialogs based on the Modal component |
+| <a href="https://github.com/maggialejandro/react-native-calendario" target="_blank" rel="noopener">react-native-calendario</a> | ✅ | 535 |  | 1d ago | 📆 React Native Calendar |
+| <a href="https://github.com/douglasjunior/react-native-simple-dialogs" target="_blank" rel="noopener">react-native-simple-dialogs</a> | ✅ | 479 |  | 4d ago | ⚛ Cross-platform React Native dialogs based on the Modal component |
 | <a href="https://github.com/ibitcy/react-native-hole-view" target="_blank" rel="noopener">react-native-hole-view</a> | ✅ | 446 |  | 9mo ago | ✂️ React-Native component to cut a touch-through holes anywhere you want. Perfect solution for tutorial overlay |
-| <a href="https://github.com/garrettmac/react-native-pagination" target="_blank" rel="noopener">react-native-pagination</a> | ✅ | 419 |  | 2d ago | Animated Pagination For React Native's ListView, FlatList, and SectionList |
-| <a href="https://github.com/colbymillerdev/react-native-progress-steps" target="_blank" rel="noopener">react-native-progress-steps</a> | ✅ | 395 |  | 16d ago | A simple and fully customizable React Native component that implements a progress stepper UI. |
-| <a href="https://github.com/peacechen/react-native-modal-selector" target="_blank" rel="noopener">react-native-modal-selector</a> | ✅ | 369 |  | 15d ago | A cross-platform (iOS / Android), selector/picker component for React Native that is highly customizable and supports sections. |
+| <a href="https://github.com/garrettmac/react-native-pagination" target="_blank" rel="noopener">react-native-pagination</a> | ✅ | 419 |  | 4d ago | Animated Pagination For React Native's ListView, FlatList, and SectionList |
+| <a href="https://github.com/colbymillerdev/react-native-progress-steps" target="_blank" rel="noopener">react-native-progress-steps</a> | ✅ | 395 |  | 18d ago | A simple and fully customizable React Native component that implements a progress stepper UI. |
+| <a href="https://github.com/peacechen/react-native-modal-selector" target="_blank" rel="noopener">react-native-modal-selector</a> | ✅ | 369 |  | 16d ago | A cross-platform (iOS / Android), selector/picker component for React Native that is highly customizable and supports sections. |
 | <a href="https://github.com/rumax/react-native-PDFView" target="_blank" rel="noopener">react-native-PDFView</a> | ✅ | 306 |  | 9mo ago | 📚 PDF viewer for React Native |
-| <a href="https://github.com/aykutkardas/react-icomoon" target="_blank" rel="noopener">react-icomoon</a> | ✅ | 245 |  | 15d ago | It makes it very simple to use SVG icons in your React and React-Native projects. |
-| <a href="https://github.com/maitrungduc1410/react-native-loader-kit" target="_blank" rel="noopener">react-native-loader-kit</a> | ✅ | 237 |  | 8d ago | Native loading and progress indicators for React Native. 50 built-ins and 50 progress designs, powered by LoaderKit, with the same motion on Android and iOS. |
+| <a href="https://github.com/aykutkardas/react-icomoon" target="_blank" rel="noopener">react-icomoon</a> | ✅ | 245 |  | 0d ago | It makes it very simple to use SVG icons in your React and React-Native projects. |
+| <a href="https://github.com/maitrungduc1410/react-native-loader-kit" target="_blank" rel="noopener">react-native-loader-kit</a> | ✅ | 237 |  | 10d ago | Native loading and progress indicators for React Native. 50 built-ins and 50 progress designs, powered by LoaderKit, with the same motion on Android and iOS. |
 | <a href="https://github.com/marcshilling/react-native-idle-timer" target="_blank" rel="noopener">react-native-idle-timer</a> | ✅ | 220 |  | 11mo ago | A cross-platform bridge that allows you to enable and disable the screen idle timer in your React Native app |
 | <a href="https://github.com/mayank-patel/react-native-floating-labels" target="_blank" rel="noopener">react-native-floating-labels</a> | ✅ | 164 |  | 1mo ago | React Native Floating Labels Library |
-| <a href="https://github.com/ronak301/react-native-submit-button" target="_blank" rel="noopener">react-native-submit-button</a> | ✅ | 123 |  | 4d ago | Animated Submit button. Works on both android and ios. |
+| <a href="https://github.com/ronak301/react-native-submit-button" target="_blank" rel="noopener">react-native-submit-button</a> | ✅ | 123 |  | 6d ago | Animated Submit button. Works on both android and ios. |
 | <a href="https://github.com/testshallpass/react-native-simple-stepper" target="_blank" rel="noopener">react-native-simple-stepper</a> | ✅ | 121 |  | 6mo ago | A parity version of the iOS UIStepper. |
 | <a href="https://github.com/nesterapp/react-native-streetview" target="_blank" rel="noopener">react-native-streetview</a> | ✅ | 103 |  | 6mo ago | React Native Google's Panorama/StreetView component for iOS and Android. |
-| <a href="https://github.com/lvlrSajjad/react-native-blur-overlay" target="_blank" rel="noopener">react-native-blur-overlay</a> | ✅ | 101 |  | 1d ago | Liquid Glass and live blur for React Native: iOS 26's UIGlassEffect and a matching Android glass, live backdrop blur, frosted panels and tab bars. |
+| <a href="https://github.com/lvlrSajjad/react-native-blur-overlay" target="_blank" rel="noopener">react-native-blur-overlay</a> | ✅ | 101 |  | 3d ago | Liquid Glass and live blur for React Native: iOS 26's UIGlassEffect and a matching Android glass, live backdrop blur, frosted panels and tab bars. |
 | <a href="https://github.com/sidevesh/react-native-fab" target="_blank" rel="noopener">React-Native-FAB</a> | ✅ | 76 |  | 9mo ago | A FAB button component for Android and iOS, customizable, simple and as per material design specs. |
 | <a href="https://github.com/MAKARD/react-native-toastboard" target="_blank" rel="noopener">react-native-toastboard</a> | ✅ | 63 |  | 9mo ago | Toast feedback messages for React Native |
 | <a href="https://github.com/yasaricli/react-native-counters" target="_blank" rel="noopener">react-native-counters</a> | ✅ | 38 |  | 8mo ago | React native Minus(-) (Number) Plus(+) Component |
 | <a href="https://github.com/niborb/react-native-gravatar" target="_blank" rel="noopener">react-native-gravatar</a> | ✅ | 28 |  | 6mo ago | React Native Gravatar component |
-| <a href="https://github.com/lvlrSajjad/react-native-masonry-brick-list" target="_blank" rel="noopener">react-native-masonry-brick-list</a> | ✅ | 28 |  | 20d ago | Masonry / staggered grid (brick list) for React Native and Expo in pure JS: column and row spans, gap, dense packing, infinite scroll, RTL, TypeScript. |
+| <a href="https://github.com/lvlrSajjad/react-native-masonry-brick-list" target="_blank" rel="noopener">react-native-masonry-brick-list</a> | ✅ | 28 |  | 22d ago | Masonry / staggered grid (brick list) for React Native and Expo in pure JS: column and row spans, gap, dense packing, infinite scroll, RTL, TypeScript. |
 | <a href="https://github.com/meliorence/react-native-snap-carousel" target="_blank" rel="noopener">react-native-snap-carousel</a> | 🟡 | 11k | 49k | 2.3y ago | Swiper/carousel component for React Native featuring previews, multiple layouts, parallax images, performant handling of huge numbers of items, and more. Compatible with Android & iOS. |
 | <a href="https://github.com/ptomasroos/react-native-scrollable-tab-view" target="_blank" rel="noopener">react-native-scrollable-tab-view</a> | 🟡 | 6.9k | 2.3k | 2.3y ago | Tabbed navigation that you can swipe between, each tab can have  its own ScrollView and maintain its own scroll position between swipes. Pleasantly animated. Customizable tab bar |
 | <a href="https://github.com/crazycodeboy/react-native-splash-screen" target="_blank" rel="noopener">react-native-splash-screen</a> | 🟡 | 5.7k | 35k | 2.2y ago | A splash screen for react-native, hide when application loaded ,it works on iOS and Android. |
@@ -126,22 +126,22 @@ No badge in this index is paid, requested, or manually overridden.
 | <a href="https://github.com/react-native-dialogs/react-native-dialogs" target="_blank" rel="noopener">react-native-dialogs</a> | 🟡 | 603 |  | 2.8y ago | React Native wrappers for https://github.com/afollestad/material-dialogs |
 | <a href="https://github.com/Purii/react-native-tableview-simple" target="_blank" rel="noopener">react-native-tableview-simple</a> | 🟡 | 575 |  | 2.1y ago | Flexible and lightweight React Native component for UITableView made with pure CSS |
 | <a href="https://github.com/magicismight/react-native-root-modal" target="_blank" rel="noopener">react-native-root-modal</a> | 🟡 | 364 |  | 2.6y ago | A pure JavaScript solution for react native`s modal component |
-| <a href="https://github.com/SHISME/react-native-draggable-grid" target="_blank" rel="noopener">react-native-draggable-grid</a> | 🟡 | 361 |  | 1.3y ago | A draggable and sortable grid of react-native |
+| <a href="https://github.com/SHISME/react-native-draggable-grid" target="_blank" rel="noopener">react-native-draggable-grid</a> | 🟡 | 361 |  | 1.4y ago | A draggable and sortable grid of react-native |
 | <a href="https://github.com/lesliesam/react-native-wheel-picker" target="_blank" rel="noopener">react-native-wheel-picker</a> | 🟡 | 346 |  | 2.6y ago | React native cross platform picker. |
 | <a href="https://github.com/billmalarky/react-native-image-cache-hoc" target="_blank" rel="noopener">react-native-image-cache-hoc</a> | 🟡 | 285 |  | 2.6y ago | React Native Higher Order Component that adds advanced caching functionality to the react native Image component. |
 | <a href="https://github.com/poberwong/react-native-switch-pro" target="_blank" rel="noopener">react-native-switch-pro</a> | 🟡 | 277 |  | 2.4y ago | a universal switch for android and iOS |
 | <a href="https://github.com/vikrantnegi/react-native-animated-loader" target="_blank" rel="noopener">react-native-animated-loader</a> | 🟡 | 206 |  | 2.7y ago | :lollipop: A React Native Loader Component which uses Airbnb's Lottie for beautiful loader animations. |
 | <a href="https://github.com/tableflip/react-native-select-multiple" target="_blank" rel="noopener">react-native-select-multiple</a> | 🟡 | 189 |  | 2.9y ago | ☑️ A customiseable FlatList that allows you to select multiple rows |
 | <a href="https://github.com/sidevesh/react-native-snackbar-component" target="_blank" rel="noopener">React-Native-SnackBar-Component</a> | 🟡 | 182 |  | 1.8y ago | A snackbar component for Android and iOS |
-| <a href="https://github.com/sidevesh/react-native-material-cards" target="_blank" rel="noopener">React-Native-Material-Cards</a> | 🟡 | 129 |  | 1.8y ago | A material design card component, customizable and versatile |
-| <a href="https://github.com/adbayb/react-native-android-kit" target="_blank" rel="noopener">react-native-android-kit</a> | 🟡 | 111 |  | 2.8y ago | :package: Android Native Kit for React-Native |
-| <a href="https://github.com/gomjellie/react-native-timetable" target="_blank" rel="noopener">react-native-timetable</a> | 🟡 | 82 |  | 2.7y ago | 📆timetable component library for React Native |
+| <a href="https://github.com/sidevesh/react-native-material-cards" target="_blank" rel="noopener">React-Native-Material-Cards</a> | 🟡 | 129 |  | 1.9y ago | A material design card component, customizable and versatile |
+| <a href="https://github.com/adbayb/react-native-android-kit" target="_blank" rel="noopener">react-native-android-kit</a> | 🟡 | 111 |  | 2.9y ago | :package: Android Native Kit for React-Native |
+| <a href="https://github.com/gomjellie/react-native-timetable" target="_blank" rel="noopener">react-native-timetable</a> | 🟡 | 82 |  | 2.8y ago | 📆timetable component library for React Native |
 | <a href="https://github.com/Bolket/react-native-scrollview-smart" target="_blank" rel="noopener">react-native-scrollview-smart</a> | 🟡 | 81 |  | 2.1y ago | A Smart ScrollView component for IOS and Android |
 | <a href="https://github.com/repodio/react-native-scrubber" target="_blank" rel="noopener">react-native-scrubber</a> | 🟡 | 63 |  | 2.8y ago | A video/audio scrubber for react native. |
 | <a href="https://github.com/phuochau/react-native-beautiful-image" target="_blank" rel="noopener">react-native-beautiful-image</a> | 🟡 | 62 |  | 1.5y ago | The Beautiful Image component that supports fadeIn animation and shows placeholderSource if the main source can't be loaded. More will be implemented. |
 | <a href="https://github.com/phuochau/react-native-360-image-viewer" target="_blank" rel="noopener">react-native-360-image-viewer</a> | 🟡 | 60 |  | 1.5y ago | Inspired by https://github.com/scaleflex/js-cloudimage-360-view. This is the 360 degrees simulation from multiple images for React Native |
-| <a href="https://github.com/xcarpentier/react-native-suggester" target="_blank" rel="noopener">react-native-suggester</a> | 🟡 | 58 |  | 2.8y ago | 🔎 React-Native package to decorate TextInput and get suggestions with good UX |
-| <a href="https://github.com/xcarpentier/rn-verifcode" target="_blank" rel="noopener">rn-verifcode</a> | 🟡 | 25 |  | 2.8y ago | 🔢 React-Native component to input confirmation code for both Android and IOS |
+| <a href="https://github.com/xcarpentier/react-native-suggester" target="_blank" rel="noopener">react-native-suggester</a> | 🟡 | 58 |  | 2.9y ago | 🔎 React-Native package to decorate TextInput and get suggestions with good UX |
+| <a href="https://github.com/xcarpentier/rn-verifcode" target="_blank" rel="noopener">rn-verifcode</a> | 🟡 | 25 |  | 2.9y ago | 🔢 React-Native component to input confirmation code for both Android and IOS |
 | <a href="https://github.com/Codelabsys/react-native-hijri-date-picker-android" target="_blank" rel="noopener">react-native-hijri-date-picker-android</a> | 🟡 | 14 |  | 2.4y ago | Date Dialog for Hijri calendar for android |
 
 ### Navigation
@@ -149,14 +149,14 @@ No badge in this index is paid, requested, or manually overridden.
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/react/react-native" target="_blank" rel="noopener">react-native</a> | ✅ | 127k |  | 0d ago | A framework for building native applications using React |
-| <a href="https://github.com/react-navigation/react-navigation" target="_blank" rel="noopener">react-navigation</a> | ✅ | 25k |  | 3d ago | Routing and navigation for React Native and Web apps |
-| <a href="https://github.com/wix/react-native-navigation" target="_blank" rel="noopener">react-native-navigation</a> | ✅ | 13k |  | 0d ago | A complete native navigation solution for React Native |
+| <a href="https://github.com/react-navigation/react-navigation" target="_blank" rel="noopener">react-navigation</a> | ✅ | 25k |  | 0d ago | Routing and navigation for React Native and Web apps |
+| <a href="https://github.com/wix/react-native-navigation" target="_blank" rel="noopener">react-native-navigation</a> | ✅ | 13k |  | 1d ago | A complete native navigation solution for React Native |
 | <a href="https://github.com/software-mansion/react-native-screens" target="_blank" rel="noopener">react-native-screens</a> | ✅ ✨ | 3.7k |  | 0d ago | Native navigation primitives for your React Native app. |
 | <a href="https://github.com/airbnb/native-navigation" target="_blank" rel="noopener">native-navigation</a> | ✅ | 3.1k | 37 | 12mo ago | Native navigation library for React Native applications |
 | <a href="https://github.com/gusgard/react-native-swiper-flatlist" target="_blank" rel="noopener">react-native-swiper-flatlist</a> | ✅ | 602 |  | 8mo ago | 👆 Swiper component implemented with FlatList using Hooks & Typescript + automation tests with Detox |
 | <a href="https://github.com/lawnstarter/react-native-hotspot" target="_blank" rel="noopener">react-native-hotspot</a> | ✅ | 34 |  | 11mo ago | 🎯 A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements |
-| <a href="https://github.com/lvlrSajjad/react-native-masonry-brick-list" target="_blank" rel="noopener">sajjad-brick-list</a> | ✅ | 28 |  | 20d ago | Masonry / staggered grid (brick list) for React Native and Expo in pure JS: column and row spans, gap, dense packing, infinite scroll, RTL, TypeScript. |
-| <a href="https://github.com/akveo/kittenTricks" target="_blank" rel="noopener">kittenTricks</a> | 🟡 | 7.3k |  | 2.6y ago | React Native starter kit with over 40 screens and modern Light and Dark theme for creating stunning cross-platform mobile applications. |
+| <a href="https://github.com/lvlrSajjad/react-native-masonry-brick-list" target="_blank" rel="noopener">sajjad-brick-list</a> | ✅ | 28 |  | 22d ago | Masonry / staggered grid (brick list) for React Native and Expo in pure JS: column and row spans, gap, dense packing, infinite scroll, RTL, TypeScript. |
+| <a href="https://github.com/akveo/kittenTricks" target="_blank" rel="noopener">kittenTricks</a> | 🟡 | 7.3k |  | 2.7y ago | React Native starter kit with over 40 screens and modern Light and Dark theme for creating stunning cross-platform mobile applications. |
 | <a href="https://github.com/Nubescope/react-native-navigation-hooks" target="_blank" rel="noopener">react-native-navigation-hooks</a> | 🟡 | 254 |  | 2.8y ago | A set of React hooks for React Native Navigation. |
 | <a href="https://github.com/sergeyshpadyrev/react-native-easy-router" target="_blank" rel="noopener">react-native-easy-router</a> | 🟡 | 153 |  | 1.2y ago | Screen navigation for React Native |
 | <a href="https://github.com/arelstone/react-native-email-chip" target="_blank" rel="noopener">react-native-email-chip</a> | 🟡 | 23 |  | 2.7y ago | A simple yet customizable component to display a chip list of emails |
@@ -179,10 +179,10 @@ No badge in this index is paid, requested, or manually overridden.
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/wix/Detox" target="_blank" rel="noopener">detox</a> | ✅ | 12k |  | 0d ago | Gray box end-to-end testing and automation framework for mobile apps |
+| <a href="https://github.com/wix/Detox" target="_blank" rel="noopener">detox</a> | ✅ | 12k |  | 2d ago | Gray box end-to-end testing and automation framework for mobile apps |
 | <a href="https://github.com/react-native-netinfo/react-native-netinfo" target="_blank" rel="noopener">react-native-netinfo</a> | ✅ ✨ | 2.2k |  | 8mo ago | React Native Network Info API for Android & iOS |
 | <a href="https://github.com/alexbrazier/react-native-network-logger" target="_blank" rel="noopener">react-native-network-logger</a> | ✅ | 690 |  | 4mo ago | An HTTP network request monitor for React Native with in-app interface for iOS and Android with no native code |
-| <a href="https://github.com/mockingbot/react-native-zip-archive" target="_blank" rel="noopener">react-native-zip-archive</a> | ✅ | 484 |  | 11d ago | Zip archive utility for react-native |
+| <a href="https://github.com/mockingbot/react-native-zip-archive" target="_blank" rel="noopener">react-native-zip-archive</a> | ✅ | 484 |  | 13d ago | Zip archive utility for react-native |
 | <a href="https://github.com/rumax/react-native-PixelsCatcher" target="_blank" rel="noopener">react-native-PixelsCatcher</a> | ✅ | 116 |  | 11mo ago | :eyes: Library for UI snapshot testing of React Native |
 | <a href="https://github.com/oblador/loki" target="_blank" rel="noopener">loki</a> | 🟡 | 1.9k |  | 2.0y ago | 👁 Visual Regression Testing for Storybook |
 | <a href="https://github.com/MaxGraey/react-native-console-time-polyfill" target="_blank" rel="noopener">react-native-console-time-polyfill</a> | 🟡 | 114 |  | 2.3y ago | console.time and console.timeEnd polyfill for react-native |
@@ -193,22 +193,22 @@ No badge in this index is paid, requested, or manually overridden.
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/react-hook-form/react-hook-form" target="_blank" rel="noopener">react-hook-form</a> | ✅ | 45k |  | 0d ago | 📋 React Hooks for form state management and validation (Web + React Native) |
-| <a href="https://github.com/jaredpalmer/formik" target="_blank" rel="noopener">formik</a> | ✅ | 34k |  | 11mo ago | Build forms in React, without the tears 😭  |
+| <a href="https://github.com/jaredpalmer/formik" target="_blank" rel="noopener">formik</a> | ✅ | 34k |  | 12mo ago | Build forms in React, without the tears 😭  |
 | <a href="https://github.com/gcanti/tcomb-form-native" target="_blank" rel="noopener">tcomb-form-native</a> | 🟡 | 3.1k |  | 2.5y ago | Forms library for react-native |
 
 ### Geolocation
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/transistorsoft/react-native-background-geolocation" target="_blank" rel="noopener">react-native-background-geolocation</a> | ✅ | 2.9k |  | 9d ago | Sophisticated, battery-conscious background-geolocation with motion-detection |
+| <a href="https://github.com/transistorsoft/react-native-background-geolocation" target="_blank" rel="noopener">react-native-background-geolocation</a> | ✅ | 2.9k |  | 11d ago | Sophisticated, battery-conscious background-geolocation with motion-detection |
 | <a href="https://github.com/mauron85/react-native-background-geolocation" target="_blank" rel="noopener">react-native-background-geolocation</a> | 🟡 | 1.4k |  | 2.2y ago | Background and foreground geolocation plugin for React Native. Tracks user when app is running in background. |
 
 ### Internationalization
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/zoontek/react-native-localize" target="_blank" rel="noopener">react-native-localize</a> | ✅ | 2.4k |  | 5d ago | 🌍 A toolbox for your React Native app localization |
-| <a href="https://github.com/zoontek/react-native-localize" target="_blank" rel="noopener">react-native-languages</a> | ✅ | 2.4k | 654 | 5d ago | 🌍 A toolbox for your React Native app localization |
+| <a href="https://github.com/zoontek/react-native-localize" target="_blank" rel="noopener">react-native-localize</a> | ✅ | 2.4k |  | 7d ago | 🌍 A toolbox for your React Native app localization |
+| <a href="https://github.com/zoontek/react-native-localize" target="_blank" rel="noopener">react-native-languages</a> | ✅ | 2.4k | 654 | 7d ago | 🌍 A toolbox for your React Native app localization |
 | <a href="https://github.com/AlexanderZaytsev/react-native-i18n" target="_blank" rel="noopener">react-native-i18n</a> | 🟡 | 2.2k | 40k | 2.7y ago | React Native + i18n.js |
 
 ### Build & Development
@@ -222,32 +222,32 @@ No badge in this index is paid, requested, or manually overridden.
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/styled-components/styled-components" target="_blank" rel="noopener">styled-components</a> | ✅ | 41k |  | 0d ago | Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API. |
+| <a href="https://github.com/styled-components/styled-components" target="_blank" rel="noopener">styled-components</a> | ✅ | 41k |  | 2d ago | Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API. |
 | <a href="https://github.com/emotion-js/emotion" target="_blank" rel="noopener">emotion</a> | ✅ | 18k |  | 2mo ago | 👩‍🎤 CSS-in-JS library designed for high performance style composition |
-| <a href="https://github.com/nativewind/nativewind" target="_blank" rel="noopener">nativewind</a> | ✅ | 8.1k |  | 3d ago | The utility-first workflow you love from Tailwind CSS in your React Native applications. |
+| <a href="https://github.com/nativewind/nativewind" target="_blank" rel="noopener">nativewind</a> | ✅ | 8.1k |  | 5d ago | The utility-first workflow you love from Tailwind CSS in your React Native applications. |
 | <a href="https://github.com/tachyons-css/react-native-style-tachyons" target="_blank" rel="noopener">react-native-style-tachyons</a> | ✅ | 690 |  | 8mo ago | Better styling for React Native |
 | <a href="https://github.com/vitalets/react-native-extended-stylesheet" target="_blank" rel="noopener">react-native-extended-stylesheet</a> | 🟡 | 2.9k |  | 1.7y ago | Extended StyleSheets for React Native |
-| <a href="https://github.com/adbayb/react-native-responsive" target="_blank" rel="noopener">react-native-responsive</a> | 🟡 | 349 |  | 2.8y ago | :package: The power of Media Queries now in your React Native project (ios and android) !  |
-| <a href="https://github.com/kristerkari/react-native-css-modules" target="_blank" rel="noopener">react-native-css-modules</a> | 🟡 | 339 |  | 2.6y ago | Style React Native components using CSS, PostCSS, Sass, Less or Stylus. |
+| <a href="https://github.com/adbayb/react-native-responsive" target="_blank" rel="noopener">react-native-responsive</a> | 🟡 | 349 |  | 2.9y ago | :package: The power of Media Queries now in your React Native project (ios and android) !  |
+| <a href="https://github.com/kristerkari/react-native-css-modules" target="_blank" rel="noopener">react-native-css-modules</a> | 🟡 | 339 |  | 2.7y ago | Style React Native components using CSS, PostCSS, Sass, Less or Stylus. |
 
 ### System
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/invertase/react-native-firebase" target="_blank" rel="noopener">react-native-firebase</a> | ✅ | 12k | 4.5k | 0d ago | 🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services. |
-| <a href="https://github.com/react-native-device-info/react-native-device-info" target="_blank" rel="noopener">react-native-device-info</a> | ✅ ✨ | 6.7k |  | 4d ago | Device Information for React Native iOS and Android |
-| <a href="https://github.com/react-native-config/react-native-config" target="_blank" rel="noopener">react-native-config</a> | ✅ | 5.0k |  | 1d ago | Bring some 12 factor love to your mobile apps! |
-| <a href="https://github.com/zoontek/react-native-permissions" target="_blank" rel="noopener">react-native-permissions</a> | ✅ | 4.4k |  | 3d ago | An unified permissions API for React Native on iOS, Android and Windows. |
+| <a href="https://github.com/react-native-device-info/react-native-device-info" target="_blank" rel="noopener">react-native-device-info</a> | ✅ ✨ | 6.7k |  | 5d ago | Device Information for React Native iOS and Android |
+| <a href="https://github.com/react-native-config/react-native-config" target="_blank" rel="noopener">react-native-config</a> | ✅ | 5.0k |  | 3d ago | Bring some 12 factor love to your mobile apps! |
+| <a href="https://github.com/zoontek/react-native-permissions" target="_blank" rel="noopener">react-native-permissions</a> | ✅ | 4.4k |  | 5d ago | An unified permissions API for React Native on iOS, Android and Windows. |
 | <a href="https://github.com/oblador/react-native-keychain" target="_blank" rel="noopener">react-native-keychain</a> | ✅ | 3.5k | 484k | 6mo ago | :key: Keychain Access for React Native |
-| <a href="https://github.com/wix/react-native-notifications" target="_blank" rel="noopener">react-native-notifications</a> | ✅ | 3.3k |  | 14d ago | React Native Notifications |
-| <a href="https://github.com/morenoh149/react-native-contacts" target="_blank" rel="noopener">react-native-contacts</a> | ✅ | 1.7k |  | 6d ago | React Native Contacts |
-| <a href="https://github.com/bamlab/react-native-image-resizer" target="_blank" rel="noopener">react-native-image-resizer</a> | ✅ | 1.7k |  | 10d ago | 🗻 Resize local images with React Native |
+| <a href="https://github.com/wix/react-native-notifications" target="_blank" rel="noopener">react-native-notifications</a> | ✅ | 3.3k |  | 16d ago | React Native Notifications |
+| <a href="https://github.com/morenoh149/react-native-contacts" target="_blank" rel="noopener">react-native-contacts</a> | ✅ | 1.7k |  | 8d ago | React Native Contacts |
+| <a href="https://github.com/bamlab/react-native-image-resizer" target="_blank" rel="noopener">react-native-image-resizer</a> | ✅ | 1.7k |  | 12d ago | 🗻 Resize local images with React Native |
 | <a href="https://github.com/transistorsoft/react-native-background-fetch" target="_blank" rel="noopener">react-native-background-fetch</a> | ✅ | 1.6k |  | 6mo ago | Periodic callbacks in the background for both IOS and Android |
-| <a href="https://github.com/OneSignal/react-native-onesignal" target="_blank" rel="noopener">react-native-onesignal</a> | ✅ | 1.6k | 170k | 2d ago | OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com |
+| <a href="https://github.com/OneSignal/react-native-onesignal" target="_blank" rel="noopener">react-native-onesignal</a> | ✅ | 1.6k | 170k | 4d ago | OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com |
 | <a href="https://github.com/mkuczera/react-native-haptic-feedback" target="_blank" rel="noopener">react-native-haptic-feedback</a> | ✅ | 985 |  | 4mo ago | Haptics that feel right: Core Haptics, AHAP files, pattern notation, and cross-platform utilities for iOS and Android. |
-| <a href="https://github.com/react-native-sensors/react-native-sensors" target="_blank" rel="noopener">react-native-sensors</a> | ✅ | 936 |  | 4d ago | A developer friendly approach for sensors in React Native |
+| <a href="https://github.com/react-native-sensors/react-native-sensors" target="_blank" rel="noopener">react-native-sensors</a> | ✅ | 936 |  | 0d ago | A developer friendly approach for sensors in React Native |
 | <a href="https://github.com/react-native-clipboard/clipboard" target="_blank" rel="noopener">clipboard</a> | ✅ ✨ | 764 |  | 9mo ago | React Native Clipboard API for both iOS and Android. |
-| <a href="https://github.com/tiaanduplessis/react-native-phone-call" target="_blank" rel="noopener">react-native-phone-call</a> | ✅ | 171 |  | 15d ago | Initiate a phone call in React Native |
+| <a href="https://github.com/tiaanduplessis/react-native-phone-call" target="_blank" rel="noopener">react-native-phone-call</a> | ✅ | 171 |  | 17d ago | Initiate a phone call in React Native |
 | <a href="https://github.com/itinance/react-native-fs" target="_blank" rel="noopener">react-native-fs</a> | 🟡 | 5.0k |  | 2.6y ago | Native filesystem access for react-native |
 | <a href="https://github.com/naoufal/react-native-touch-id" target="_blank" rel="noopener">react-native-touch-id</a> | 🟡 | 1.5k | 10k | 2.2y ago | React Native authentication with the native Touch ID popup. |
 | <a href="https://github.com/timfpark/react-native-location" target="_blank" rel="noopener">react-native-location</a> | 🟡 | 894 |  | 2.5y ago | React Native plug-in that provides GPS location information |
@@ -264,7 +264,7 @@ No badge in this index is paid, requested, or manually overridden.
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/react-native-webview/react-native-webview" target="_blank" rel="noopener">react-native-webview</a> | ✅ ✨ | 7.2k |  | 29d ago | React Native Cross-Platform WebView |
+| <a href="https://github.com/react-native-webview/react-native-webview" target="_blank" rel="noopener">react-native-webview</a> | ✅ ✨ | 7.2k |  | 1mo ago | React Native Cross-Platform WebView |
 | <a href="https://github.com/proyecto26/react-native-inappbrowser" target="_blank" rel="noopener">react-native-inappbrowser</a> | ✅ | 1.4k |  | 7mo ago | 📱InAppBrowser for React Native (Android & iOS) 🤘 |
 | <a href="https://github.com/alinz/react-native-webview-bridge" target="_blank" rel="noopener">react-native-webview-bridge</a> | 🟡 | 1.4k |  | 2.4y ago | React Native Webview with Javascript Bridge  |
 
@@ -272,9 +272,9 @@ No badge in this index is paid, requested, or manually overridden.
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/margelo/react-native-vision-camera" target="_blank" rel="noopener">react-native-vision-camera</a> | ✅ | 9.6k |  | 4d ago | 📸 A powerful, high-performance React Native Camera library. |
+| <a href="https://github.com/margelo/react-native-vision-camera" target="_blank" rel="noopener">react-native-vision-camera</a> | ✅ | 9.6k |  | 6d ago | 📸 A powerful, high-performance React Native Camera library. |
 | <a href="https://github.com/TheWidlarzGroup/react-native-video" target="_blank" rel="noopener">react-native-video</a> | ✅ | 7.7k |  | 0d ago | A <Video /> component for react-native |
-| <a href="https://github.com/doublesymmetry/react-native-track-player" target="_blank" rel="noopener">react-native-track-player</a> | ✅ | 3.7k |  | 19d ago | The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more. |
+| <a href="https://github.com/doublesymmetry/react-native-track-player" target="_blank" rel="noopener">react-native-track-player</a> | ✅ | 3.7k |  | 21d ago | The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more. |
 | <a href="https://github.com/zmxv/react-native-sound" target="_blank" rel="noopener">react-native-sound</a> | ✅ | 2.9k |  | 8mo ago | React Native module for playing sound clips |
 | <a href="https://github.com/teslamotors/react-native-camera-kit" target="_blank" rel="noopener">react-native-camera-kit</a> | ✅ | 2.7k |  | 3mo ago | A high performance, easy to use, rock solid camera library for React Native apps. |
 | <a href="https://github.com/shahen94/react-native-video-processing" target="_blank" rel="noopener">react-native-video-processing</a> | ✅ | 1.3k |  | 9mo ago | Native Video editing/trimming/compressing  :movie_camera: library for React-Native |
@@ -291,12 +291,12 @@ No badge in this index is paid, requested, or manually overridden.
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/pubkey/rxdb" target="_blank" rel="noopener">rxdb</a> | ✅ | 23k | 54k | 0d ago | The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/ |
 | <a href="https://github.com/Nozbe/WatermelonDB" target="_blank" rel="noopener">WatermelonDB</a> | ✅ | 12k |  | 1mo ago | 🍉 Reactive & asynchronous database for powerful React and React Native apps ⚡️ |
-| <a href="https://github.com/margelo/react-native-mmkv" target="_blank" rel="noopener">react-native-mmkv</a> | ✅ | 8.5k |  | 11d ago | ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage! |
-| <a href="https://github.com/realm/realm-js" target="_blank" rel="noopener">realm-js</a> | ✅ | 6.0k | 124 | 3d ago |  Realm is a mobile database: an alternative to SQLite & key-value stores |
+| <a href="https://github.com/margelo/react-native-mmkv" target="_blank" rel="noopener">react-native-mmkv</a> | ✅ | 8.5k |  | 13d ago | ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage! |
+| <a href="https://github.com/realm/realm-js" target="_blank" rel="noopener">realm-js</a> | ✅ | 6.0k | 124 | 0d ago |  Realm is a mobile database: an alternative to SQLite & key-value stores |
 | <a href="https://github.com/react-native-async-storage/async-storage" target="_blank" rel="noopener">async-storage</a> | ✅ ✨ | 5.1k | 451 | 0d ago | An asynchronous, persistent, key-value storage system for React Native. |
 | <a href="https://github.com/sunnylqm/react-native-storage" target="_blank" rel="noopener">react-native-storage</a> | ✅ | 3.0k | 18k | 3mo ago | local storage wrapper for both react-native and browser. Support size controlling, auto expiring, remote data auto syncing and getting batch data in one query. |
 | <a href="https://github.com/craftzdog/react-native-sqlite-2" target="_blank" rel="noopener">react-native-sqlite-2</a> | ✅ | 386 |  | 7mo ago | SQLite3 Native Plugin for React Native for iOS, Android, Windows and macOS. |
-| <a href="https://github.com/craftzdog/pouchdb-adapter-react-native-sqlite" target="_blank" rel="noopener">pouchdb-adapter-react-native-sqlite</a> | ✅ | 168 |  | 3d ago | PouchDB adapter using ReactNative SQLite as its backing store |
+| <a href="https://github.com/craftzdog/pouchdb-adapter-react-native-sqlite" target="_blank" rel="noopener">pouchdb-adapter-react-native-sqlite</a> | ✅ | 168 |  | 1d ago | PouchDB adapter using ReactNative SQLite as its backing store |
 | <a href="https://github.com/andpor/react-native-sqlite-storage" target="_blank" rel="noopener">react-native-sqlite-storage</a> | 🟡 | 2.8k |  | 2.4y ago | Full featured SQLite3 Native Plugin for React Native (Android and iOS) |
 
 ### Backend
@@ -306,18 +306,18 @@ No badge in this index is paid, requested, or manually overridden.
 | <a href="https://github.com/appbaseio/reactivesearch" target="_blank" rel="noopener">reactivesearch</a> | ✅ | 4.9k |  | 1d ago | Search UI components for React and Vue |
 | <a href="https://github.com/aroth/react-native-uploader" target="_blank" rel="noopener">react-native-uploader</a> | ✅ | 510 |  | 9mo ago | A React Native module to upload files and camera roll assets. |
 | <a href="https://github.com/edeckers/react-native-blob-courier" target="_blank" rel="noopener">react-native-blob-courier</a> | ✅ | 135 |  | 5mo ago | Use this library to efficiently download and upload blobs in React Native. |
-| <a href="https://github.com/pervasync/react-native-sync" target="_blank" rel="noopener">react-native-sync</a> | ✅ | 59 |  | 24d ago | Two way, incremental sync between React Native realmjs database and MySQL, Oracle, MS SQL Server and PostgreSQL  |
-| <a href="https://github.com/Vydia/react-native-background-upload" target="_blank" rel="noopener">react-native-background-upload</a> | 🟡 | 759 |  | 2.5y ago | Upload files in your React Native app even while it's backgrounded.  Supports Android and iOS, including camera roll assets. |
+| <a href="https://github.com/pervasync/react-native-sync" target="_blank" rel="noopener">react-native-sync</a> | ✅ | 59 |  | 26d ago | Two way, incremental sync between React Native realmjs database and MySQL, Oracle, MS SQL Server and PostgreSQL  |
+| <a href="https://github.com/Vydia/react-native-background-upload" target="_blank" rel="noopener">react-native-background-upload</a> | 🟡 | 759 |  | 2.6y ago | Upload files in your React Native app even while it's backgrounded.  Supports Android and iOS, including camera roll assets. |
 
 ### Integrations
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/react-native-google-signin/google-signin" target="_blank" rel="noopener">react-native-google-signin</a> | ✅ | 3.6k |  | 20d ago | Google Sign-in for your React Native applications |
+| <a href="https://github.com/react-native-google-signin/google-signin" target="_blank" rel="noopener">react-native-google-signin</a> | ✅ | 3.6k |  | 22d ago | Google Sign-in for your React Native applications |
 | <a href="https://github.com/FaridSafi/react-native-google-places-autocomplete" target="_blank" rel="noopener">react-native-google-places-autocomplete</a> | ✅ | 2.1k |  | 1mo ago | Customizable Google Places autocomplete component for iOS and Android React-Native apps |
-| <a href="https://github.com/AgoraIO-Extensions/react-native-agora" target="_blank" rel="noopener">react-native-agora</a> | ✅ | 653 |  | 3d ago | React Native around the Agora RTC SDKs for Android and iOS agora |
-| <a href="https://github.com/voximplant/react-native-voximplant" target="_blank" rel="noopener">react-native-voximplant</a> | ✅ | 207 |  | 3d ago | Voximplant mobile SDK for React Native (iOS/Android) |
-| <a href="https://github.com/testfairy/react-native-testfairy" target="_blank" rel="noopener">react-native-testfairy</a> | ✅ | 33 |  | 24d ago | React Native component for TestFairy SDK |
+| <a href="https://github.com/AgoraIO-Extensions/react-native-agora" target="_blank" rel="noopener">react-native-agora</a> | ✅ | 652 |  | 5d ago | React Native around the Agora RTC SDKs for Android and iOS agora |
+| <a href="https://github.com/voximplant/react-native-voximplant" target="_blank" rel="noopener">react-native-voximplant</a> | ✅ | 207 |  | 0d ago | Voximplant mobile SDK for React Native (iOS/Android) |
+| <a href="https://github.com/testfairy/react-native-testfairy" target="_blank" rel="noopener">react-native-testfairy</a> | ✅ | 33 |  | 26d ago | React Native component for TestFairy SDK |
 | <a href="https://github.com/bugfender/rn-bugfender" target="_blank" rel="noopener">rn-bugfender</a> | ✅ | 30 |  | 3mo ago | Bugfender for React Native  |
 | <a href="https://github.com/reactnativecn/react-native-qq" target="_blank" rel="noopener">react-native-qq</a> | 🟡 | 306 |  | 2.6y ago | QQ Login&Share support in React Native. |
 
@@ -325,7 +325,7 @@ No badge in this index is paid, requested, or manually overridden.
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/square/in-app-payments-react-native-plugin" target="_blank" rel="noopener">in-app-payments-react-native-plugin</a> | ✅ | 131 |  | 12d ago | Square React Native plugin for In-App Payments SDK. |
+| <a href="https://github.com/square/in-app-payments-react-native-plugin" target="_blank" rel="noopener">in-app-payments-react-native-plugin</a> | ✅ | 131 |  | 14d ago | Square React Native plugin for In-App Payments SDK. |
 | <a href="https://github.com/sorokin0andrey/react-native-google-pay" target="_blank" rel="noopener">react-native-google-pay</a> | 🟡 | 107 |  | 2.9y ago | React Native bridge for Google Pay |
 
 ### Animation
@@ -351,18 +351,17 @@ No badge in this index is paid, requested, or manually overridden.
 | <a href="https://github.com/react-native-community/upgrade-helper" target="_blank" rel="noopener">upgrade-helper</a> | ✅ | 4.1k |  | 3mo ago | ⚛️ A web tool to support React Native developers in upgrading their apps. |
 | <a href="https://github.com/junedomingo/react-native-rename" target="_blank" rel="noopener">react-native-rename</a> | ✅ | 2.8k |  | 3mo ago | Rename react-native app with just one command |
 | <a href="https://github.com/callstack/react-native-bundle-visualizer" target="_blank" rel="noopener">react-native-bundle-visualizer</a> | ✅ | 1.6k |  | 5mo ago | See what packages are increasing your react-native bundle size 📦 |
-| <a href="https://github.com/react-native-community/rn-diff-purge" target="_blank" rel="noopener">rn-diff-purge</a> | ✅ | 1.3k |  | 2d ago | Easier React Native upgrades by clearly exposing changes from a version to another. :rocket: And what better way than to purge, init, then diff? Spoiler: there's no better way. 😎 |
+| <a href="https://github.com/react-native-community/rn-diff-purge" target="_blank" rel="noopener">rn-diff-purge</a> | ✅ | 1.3k |  | 4d ago | Easier React Native upgrades by clearly exposing changes from a version to another. :rocket: And what better way than to purge, init, then diff? Spoiler: there's no better way. 😎 |
 | <a href="https://github.com/electrode-io/electrode-native" target="_blank" rel="noopener">electrode-native</a> | ✅ | 732 |  | 6mo ago | A platform to ease integration&delivery of React Native apps in existing mobile applications |
-| <a href="https://github.com/simplelocalize/simplelocalize-cli" target="_blank" rel="noopener">simplelocalize-cli</a> | ✅ | 80 |  | 6d ago | SimpleLocalize CLI is a developer-friendly command-line tool for uploading and downloading translation files  |
-| <a href="https://github.com/jhen0409/react-native-debugger" target="_blank" rel="noopener">react-native-debugger</a> | 🟡 | 10k | 3.1k | 3.0y ago | The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools |
+| <a href="https://github.com/simplelocalize/simplelocalize-cli" target="_blank" rel="noopener">simplelocalize-cli</a> | ✅ | 80 |  | 8d ago | SimpleLocalize CLI is a developer-friendly command-line tool for uploading and downloading translation files  |
 | <a href="https://github.com/a7ul/react-native-exception-handler" target="_blank" rel="noopener">react-native-exception-handler</a> | 🟡 | 1.6k |  | 2.3y ago | A react native module that lets you to register a global error handler that can capture fatal/non fatal uncaught exceptions. |
 
 ### Seeds
 
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| <a href="https://github.com/infinitered/ignite" target="_blank" rel="noopener">ignite</a> | ✅ | 20k |  | 4mo ago | Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting. |
-| <a href="https://github.com/flexn-io/renative" target="_blank" rel="noopener">react-native-vanilla</a> | ✅ | 2.0k |  | 13d ago | 🚀🚀🚀 Unified Development Platform for iOS, tvOS, Android, Android TV, Android Wear, Web, Tizen TV, Tizen Watch, Tizen Mobile, LG webOS, macOS/OSX, Windows, KaiOS, FirefoxOS Firefox TV platforms |
+| <a href="https://github.com/infinitered/ignite" target="_blank" rel="noopener">ignite</a> | ✅ | 20k |  | 5mo ago | Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting. |
+| <a href="https://github.com/flexn-io/renative" target="_blank" rel="noopener">react-native-vanilla</a> | ✅ | 2.0k |  | 15d ago | 🚀🚀🚀 Unified Development Platform for iOS, tvOS, Android, Android TV, Android Wear, Web, Tizen TV, Tizen Watch, Tizen Mobile, LG webOS, macOS/OSX, Windows, KaiOS, FirefoxOS Firefox TV platforms |
 | <a href="https://github.com/GeekyAnts/react-native-seed" target="_blank" rel="noopener">react-native-seed</a> | ✅ | 644 |  | 9mo ago | Get your favorite boilerplate of React Native |
 | <a href="https://github.com/dopebase/react-native-starter-kit" target="_blank" rel="noopener">react-native-starter-kit</a> | ✅ | 467 |  | 11mo ago | React Native Starter Kit with Firebase Auth and Facebook Login |
 | <a href="https://github.com/flatlogic/react-native-starter" target="_blank" rel="noopener">react-native-starter</a> | 🟡 | 2.5k | 6 | 1.7y ago | 🚀A powerful react native starter template that bootstraps development of your mobile application  |
@@ -373,7 +372,7 @@ No badge in this index is paid, requested, or manually overridden.
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/react-native-elements/react-native-elements" target="_blank" rel="noopener">React-Native-Elements</a> | ✅ | 26k |  | 5mo ago | Cross-Platform React Native UI Toolkit |
-| <a href="https://github.com/shoutem/ui" target="_blank" rel="noopener">ui</a> | ✅ | 5.0k |  | 0d ago | Customizable set of components for React Native applications |
+| <a href="https://github.com/shoutem/ui" target="_blank" rel="noopener">ui</a> | ✅ | 5.0k |  | 1d ago | Customizable set of components for React Native applications |
 
 ### Frameworks
 
@@ -381,7 +380,7 @@ No badge in this index is paid, requested, or manually overridden.
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/expo/expo" target="_blank" rel="noopener">expo</a> | ✅ ✨ | 53k |  | 0d ago | An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web. |
 | <a href="https://github.com/GeekyAnts/NativeBase" target="_blank" rel="noopener">NativeBase</a> | ✅ | 20k |  | 9mo ago | Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web. |
-| <a href="https://github.com/OsmiCSX/osmicsx" target="_blank" rel="noopener">osmicsx</a> | 🟡 | 267 |  | 2.6y ago | An utility style framework for React Native |
+| <a href="https://github.com/OsmiCSX/osmicsx" target="_blank" rel="noopener">osmicsx</a> | 🟡 | 266 |  | 2.6y ago | An utility style framework for React Native |
 
 ### Open Source Apps
 
@@ -406,7 +405,7 @@ No badge in this index is paid, requested, or manually overridden.
 | Library | Health | Stars | npm/wk | Last push | Notes |
 | --- | --- | ---: | ---: | --- | --- |
 | <a href="https://github.com/thecodingmachine/react-native-boilerplate" target="_blank" rel="noopener">react-native-boilerplate</a> | ✅ | 5.6k | 12 | 4mo ago | A React Native template for building solid applications 🐙, using JavaScript 💛 or Typescript 💙 (you choose). |
-| <a href="https://github.com/tiaanduplessis/awesome-react-native-talks" target="_blank" rel="noopener">awesome-react-native-talks</a> | ✅ | 355 |  | 0d ago | :sunglasses: A curated list of talks about React Native or topics related to React Native |
+| <a href="https://github.com/tiaanduplessis/awesome-react-native-talks" target="_blank" rel="noopener">awesome-react-native-talks</a> | ✅ | 355 |  | 2d ago | :sunglasses: A curated list of talks about React Native or topics related to React Native |
 
 ---
 
@@ -422,18 +421,19 @@ This index is maintained by a team of heavy React Native users that also builds 
 
 Popular libraries that are dead, archived, or deleted. **Do not adopt them for new projects.** A successor is listed when one exists.
 
-> ⚠️ The audit measured **≈1153k weekly npm downloads** still flowing into dead libraries below. Every one of those installs is a future migration bill.
+> ⚠️ The audit measured **≈1157k weekly npm downloads** still flowing into dead libraries below. Every one of those installs is a future migration bill.
 
 | Library | Fate | Stars | npm/wk | Last push | Successor | Notes |
 | --- | --- | ---: | ---: | --- | --- | --- |
 | **f8app** | 💀 archived | 14k |  | 3.3y ago | — | Source code of the official F8 app of 2017, powered by React Native and other Facebook open source projects. |
+| **react-native-debugger** | 💀 abandoned | 10k | 3.1k | 3.0y ago | — | The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools |
 | **react-native-camera** | 💀 archived | 9.6k | 21k | 3.4y ago | <a href="https://github.com/mrousavy/react-native-vision-camera" target="_blank" rel="noopener">react-native-vision-camera</a> (officially deprecated; migration guide points here) | A Camera component for React Native. Also supports barcode scanning! |
 | **react-native-code-push** | 💀 archived | 9.1k | 26k | 1.4y ago | <a href="https://github.com/expo/expo" target="_blank" rel="noopener">expo</a> (CodePush service sunset; Expo Updates is the migration target) | React Native module for CodePush |
 | **react-native-router-flux** | 💀 abandoned | 8.9k | 4.9k | 3.3y ago | <a href="https://github.com/react-navigation/react-navigation" target="_blank" rel="noopener">react-navigation</a> | The first declarative React Native router |
 | **reactxp** | 💀 archived | 8.2k |  | 3.3y ago | — | Library for cross-platform app development. |
 | **30-days-of-react-native** | 💀 abandoned | 6.9k |  | 8.1y ago | — | 30 days of React Native demos |
 | **react-native-push-notification** | 💀 archived | 6.8k |  | 2.7y ago | — | React Native Local and Remote Notifications |
-| **react-native-nw-react-calculator** | 💀 abandoned | 5.2k |  | 5.0y ago | — | Mobile, desktop and website Apps with the same code |
+| **react-native-nw-react-calculator** | 💀 abandoned | 5.2k |  | 5.1y ago | — | Mobile, desktop and website Apps with the same code |
 | **react-native-styling-cheat-sheet** | 💀 abandoned | 4.9k |  | 3.9y ago | — | Most of the React Native styling material in one page |
 | **react-native-material-kit** | 💀 abandoned | 4.8k | 111 | 3.8y ago | <a href="https://github.com/callstack/react-native-paper" target="_blank" rel="noopener">react-native-paper</a> | Bringing Material Design to React Native |
 | **pepperoni-app-kit** | 💀 abandoned | 4.6k |  | 3.3y ago | <a href="https://github.com/expo/expo" target="_blank" rel="noopener">expo</a> (use create-expo-app templates) | Pepperoni - React Native App Starter Kit for Android and iOS |
@@ -449,12 +449,12 @@ Popular libraries that are dead, archived, or deleted. **Do not adopt them for n
 | **GitHubPopular** | 💀 abandoned | 2.9k |  | 7.2y ago | — | 这是一个用来查看GitHub最受欢迎与最热项目的App,它基于React Native支持Android和iOS双平台。#适配RN最新版在这里☞# |
 | **teaset** | 💀 abandoned | 2.9k |  | 5.4y ago | — | A UI library for react native, provides 20+ pure JS(ES6) components, focusing on content display and action control. |
 | **react-native-wechat** | 💀 archived | 2.9k |  | 3.8y ago | — | 🚀 WeChat login, share, favorite and payment for React-Native on iOS and Android platforms (QQ: 336021910) |
-| **react-native-lightbox** | 💀 abandoned | 2.8k | 51k | 4.9y ago | — | Images etc in Full Screen Lightbox Popovers for React Native |
+| **react-native-lightbox** | 💀 abandoned | 2.8k | 51k | 5.0y ago | — | Images etc in Full Screen Lightbox Popovers for React Native |
 | **react-native-fetch-blob** | 💀 archived | 2.6k |  | 4.2y ago | <a href="https://github.com/ronradtke/react-native-blob-util" target="_blank" rel="noopener">react-native-blob-util</a> (community fork took over) | A project committed to making file access and data transfer easier, efficient for React Native developers. |
 | **react-native-swipeout** | 💀 archived | 2.6k | 17k | 6.1y ago | <a href="https://github.com/software-mansion/react-native-gesture-handler" target="_blank" rel="noopener">react-native-gesture-handler</a> (rebuild on gesture handler) | iOS-style swipeout buttons behind component |
 | **react-native-drawer** | 💀 abandoned | 2.5k | 4.6k | 4.5y ago | <a href="https://github.com/react-navigation/react-navigation" target="_blank" rel="noopener">react-navigation</a> (use drawer navigator) | React Native Drawer |
-| **react-native-size-matters** | 💀 abandoned | 2.5k | 287k | 3.0y ago | — | A lightweight, zero-dependencies, React-Native utility belt for scaling the size of your apps UI across different sized devices. |
-| **react-native-action-button** | 💀 abandoned | 2.5k | 3.5k | 3.6y ago | — | customizable multi-action-button component for react-native |
+| **react-native-size-matters** | 💀 abandoned | 2.5k | 287k | 3.1y ago | — | A lightweight, zero-dependencies, React-Native utility belt for scaling the size of your apps UI across different sized devices. |
+| **react-native-action-button** | 💀 abandoned | 2.5k | 3.5k | 3.7y ago | — | customizable multi-action-button component for react-native |
 | **rnpm** | 💀 abandoned | 2.5k |  | 10.2y ago | <a href="https://github.com/react-native-community/cli" target="_blank" rel="noopener">cli</a> (merged into the official CLI) | :iphone: React Native Package Manager |
 | **react-native-offline** | 💀 abandoned | 2.4k | 7.4k | 3.6y ago | — | Handy toolbelt to deal nicely with offline/online connectivity in a React Native app. Smooth redux integration ✈️ |
 | **react-native-largelist** | 💀 abandoned | 2.3k | 108 | 4.6y ago | — | The best large list component for React Native. |
